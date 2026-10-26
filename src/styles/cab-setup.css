@@ -1,0 +1,83 @@
+/*
+ * CAB setup wizard and CAB Profile: shared step components.
+ *
+ * Colours are aliases of the Figma Design System semantic tokens (design-system.css),
+ * so the setup steps never carry their own palette.
+ *
+ * `.cab-setup:not(.cab-profile)` is the full-screen onboarding wizard (Figma
+ * "Set up" screens: 14px labels, 46px fields). Inside the app shell
+ * (`.cab-profile`) the steps use the standard Text Field spec with no overrides.
+ */
+
+.cab-setup {
+  --cab-ink: var(--color-text-primary);
+  --cab-primary: var(--color-primary);
+  --cab-muted: var(--color-text-secondary);
+  --cab-border: var(--color-border-strong);
+  --cab-subtle: var(--color-primary-50);
+  --cab-panel: var(--color-bg-brand-light);
+  --cab-placeholder: var(--color-text-secondary);
+  --cab-canvas: var(--color-bg-secondary);
+  --cab-hairline: var(--color-border-default);
+  --cab-chip: var(--color-bg-tertiary);
+}
+
+/* ---- Wizard labels: Body S Medium, text-primary ---- */
+.cab-setup:not(.cab-profile) .field-label {
+  font-size: var(--text-body-sm);
+  font-weight: 500;
+  line-height: var(--leading-typography);
+  color: var(--cab-ink);
+}
+
+/* ---- Wizard inputs / select triggers: 46px, radius/md, border-strong ---- */
+.cab-setup:not(.cab-profile) .field-text,
+.cab-setup:not(.cab-profile) .multiselect-trigger {
+  min-height: 46px;
+  height: 46px;
+  font-size: var(--text-body-sm);
+  line-height: var(--leading-typography);
+  color: var(--cab-ink);
+  border-radius: var(--radius-md);
+  border-color: var(--cab-border);
+  padding-inline: 14px;
+}
+
+/* Stacked multi-selects grow with their chips. */
+.cab-setup .multiselect-trigger {
+  height: auto;
+}
+
+.cab-setup:not(.cab-profile) .field-text::placeholder {
+  font-size: var(--text-body-sm);
+  font-weight: 400;
+  color: var(--cab-placeholder);
+}
+
+.cab-setup:not(.cab-profile) .field-text:focus,
+.cab-setup:not(.cab-profile) .field-text:focus-visible,
+.cab-setup:not(.cab-profile) .multiselect-trigger:focus-visible {
+  border-color: var(--color-border-focus);
+  box-shadow: 0 0 0 1px var(--color-border-focus);
+  outline: none;
+}
+
+/* Placeholder text rendered as a span (select triggers, multi-selects). */
+.cab-setup:not(.cab-profile) .field-text > span,
+.cab-setup:not(.cab-profile) .multiselect-trigger span {
+  font-size: var(--text-body-sm);
+  line-height: var(--leading-typography);
+}
+
+/* Textareas keep their natural height. */
+.cab-setup textarea.field-text {
+  height: auto;
+  padding-block: 10px;
+}
+
+/* Dropdown popovers inherit the wizard's type scale. */
+.cab-setup-popover,
+.cab-setup-popover button,
+.cab-setup-popover input {
+  font-size: var(--text-body-sm);
+}

@@ -1,0 +1,468 @@
+@import "tailwindcss";
+@import "./styles/design-system.css";
+@import "./styles/cab-setup.css";
+
+@font-face {
+  font-family: 'GE SS Two';
+  src: url('/fonts/ge-ss-two/ArbFONTS-GE_SS_Two_Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GE SS Two';
+  src: url('/fonts/ge-ss-two/ArbFONTS-GE_SS_Two_Medium.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GE SS Two';
+  src: url('/fonts/ge-ss-two/ArbFONTS-GE_SS_Two_Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GE SS Two';
+  src: url('/fonts/ge-ss-two/ArbFONTS-GE_SS_Two_Bold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GE SS Two';
+  src: url('/fonts/ge-ss-two/ArbFONTS-GE_SS_Two_Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/*
+ * Composite Arabic UI font: Arabic script from GE SS Two, Western (0-9) digits
+ * and Latin tokens from Montserrat. Applied globally via --font-arabic when lang=ar.
+ */
+@font-face {
+  font-family: 'ICASCO Arabic';
+  src: url('/fonts/ge-ss-two/ArbFONTS-GE_SS_Two_Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  font-feature-settings: 'lnum' 1, 'locl' 0;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF,
+    U+200C-200F, U+061F, U+061B, U+0640, U+0670, U+06D4;
+}
+
+@font-face {
+  font-family: 'ICASCO Arabic';
+  src: url('/fonts/montserrat/montserrat-light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0030-0039, U+0041-005A, U+0061-007A, U+0020, U+002C, U+002E, U+003A,
+    U+002B, U+002D, U+002F, U+0025, U+0028, U+0029;
+}
+
+@font-face {
+  font-family: 'ICASCO Arabic';
+  src: url('/fonts/ge-ss-two/ArbFONTS-GE_SS_Two_Medium.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  font-feature-settings: 'lnum' 1, 'locl' 0;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF,
+    U+200C-200F, U+061F, U+061B, U+0640, U+0670, U+06D4;
+}
+
+@font-face {
+  font-family: 'ICASCO Arabic';
+  src: url('/fonts/montserrat/montserrat-regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0030-0039, U+0041-005A, U+0061-007A, U+0020, U+002C, U+002E, U+003A,
+    U+002B, U+002D, U+002F, U+0025, U+0028, U+0029;
+}
+
+@font-face {
+  font-family: 'ICASCO Arabic';
+  src: url('/fonts/ge-ss-two/ArbFONTS-GE_SS_Two_Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  font-feature-settings: 'lnum' 1, 'locl' 0;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF,
+    U+200C-200F, U+061F, U+061B, U+0640, U+0670, U+06D4;
+}
+
+@font-face {
+  font-family: 'ICASCO Arabic';
+  src: url('/fonts/montserrat/montserrat-medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0030-0039, U+0041-005A, U+0061-007A, U+0020, U+002C, U+002E, U+003A,
+    U+002B, U+002D, U+002F, U+0025, U+0028, U+0029;
+}
+
+@font-face {
+  font-family: 'ICASCO Arabic';
+  src: url('/fonts/ge-ss-two/ArbFONTS-GE_SS_Two_Bold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  font-feature-settings: 'lnum' 1, 'locl' 0;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF,
+    U+200C-200F, U+061F, U+061B, U+0640, U+0670, U+06D4;
+}
+
+@font-face {
+  font-family: 'ICASCO Arabic';
+  src: url('/fonts/montserrat/montserrat-semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0030-0039, U+0041-005A, U+0061-007A, U+0020, U+002C, U+002E, U+003A,
+    U+002B, U+002D, U+002F, U+0025, U+0028, U+0029;
+}
+
+@font-face {
+  font-family: 'ICASCO Arabic';
+  src: url('/fonts/ge-ss-two/ArbFONTS-GE_SS_Two_Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  font-feature-settings: 'lnum' 1, 'locl' 0;
+  unicode-range: U+0600-06FF, U+0750-077F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF,
+    U+200C-200F, U+061F, U+061B, U+0640, U+0670, U+06D4;
+}
+
+@font-face {
+  font-family: 'ICASCO Arabic';
+  src: url('/fonts/montserrat/montserrat-bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0030-0039, U+0041-005A, U+0061-007A, U+0020, U+002C, U+002E, U+003A,
+    U+002B, U+002D, U+002F, U+0025, U+0028, U+0029;
+}
+
+/* Global focus indicator (Figma Accessibility: 2px border-focus ring, 2px offset) for
+   interactive elements that do not draw their own. */
+@layer base {
+  :where(a, button, [role='button'], [role='tab'], summary, [tabindex]):focus-visible {
+    outline: var(--stroke-thick) solid var(--color-border-focus);
+    outline-offset: 2px;
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    font-size: var(--text-body-1);
+    line-height: var(--leading-typography);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  :lang(ar),
+  [dir='rtl'] {
+    font-family: var(--font-arabic);
+    font-variant-numeric: lining-nums;
+    font-feature-settings: 'lnum' 1, 'locl' 0;
+  }
+
+  :lang(en),
+  [dir='ltr'] {
+    font-family: var(--font-sans);
+  }
+
+  #root {
+    min-height: 100vh;
+  }
+
+  button:not(:disabled),
+  [role='button']:not([aria-disabled='true']),
+  a[href],
+  label[for],
+  select:not(:disabled),
+  summary,
+  input[type='checkbox']:not(:disabled),
+  input[type='radio']:not(:disabled),
+  input[type='file']:not(:disabled) {
+    cursor: pointer;
+  }
+
+  button:disabled,
+  [role='button'][aria-disabled='true'],
+  select:disabled,
+  input:disabled,
+  textarea:disabled {
+    cursor: not-allowed;
+  }
+}
+
+@layer utilities {
+  @media (min-width: 1280px) {
+    .sectors-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  }
+  @media (min-width: 1441px) {
+    .sectors-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  }
+
+  [dir='rtl'] .rtl-flip {
+    transform: scaleX(-1);
+  }
+
+  .english-digits {
+    font-family: var(--font-sans);
+    font-variant-numeric: tabular-nums lining-nums;
+    unicode-bidi: isolate;
+  }
+
+  .english-digits-ltr {
+    direction: ltr;
+  }
+
+  .field-standard-tab {
+    font-size: var(--text-body-2);
+    line-height: var(--leading-typography);
+  }
+
+  .field-card-title {
+    font-size: var(--text-body-1);
+    font-weight: 500;
+    line-height: var(--leading-typography);
+  }
+
+  /* Figma Text Field label: Body L Medium (EN Montserrat 500, AR GE SS Two Medium) */
+  .field-label {
+    font-size: var(--text-body-1);
+    font-weight: 500;
+    line-height: var(--leading-typography);
+  }
+
+  [dir='rtl'] .field-text,
+  [dir='rtl'] input,
+  [dir='rtl'] textarea {
+    font-weight: 300;
+  }
+
+  [dir='rtl'] .section-heading {
+    font-weight: 600;
+  }
+}
+
+/* Skeleton shimmer used by loading states */
+.skeleton {
+  position: relative;
+  overflow: hidden;
+  background-color: var(--color-primary-50);
+  border-radius: var(--radius-md);
+}
+
+.skeleton::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  transform: translateX(-100%);
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.75), transparent);
+  animation: skeleton-shimmer 1.6s ease-in-out infinite;
+}
+
+/* Hides the scrollbar track/thumb while keeping the element scrollable —
+   use on any horizontally-scrolling nav/tab bar (e.g. CabStepNav) so it
+   scrolls on narrow screens without showing a visible scrollbar. */
+   
+.scrollbar-hide {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* old Edge/IE */
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
+@keyframes skeleton-shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes toastProgress {
+  from {
+    transform: scaleX(1);
+  }
+  to {
+    transform: scaleX(0);
+  }
+}
+
+@keyframes toastIn {
+  from {
+    opacity: 0;
+    transform: translateY(-12px) scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* Toasts slide in from the inline-end edge on desktop (right in LTR, left in RTL) and drop down on phones. */
+@keyframes toastInFromRight {
+  from {
+    opacity: 0;
+    transform: translateX(28px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes toastInFromLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-28px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.icasco-toast {
+  animation: toastIn 240ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+@media (min-width: 640px) {
+  .icasco-toast {
+    animation-name: toastInFromRight;
+  }
+  [dir='rtl'] .icasco-toast {
+    animation-name: toastInFromLeft;
+  }
+}
+
+.icasco-toast-progress {
+  transform-origin: left;
+  animation: toastProgress linear forwards;
+}
+
+[dir='rtl'] .icasco-toast-progress {
+  transform-origin: right;
+}
+
+.icasco-toast:hover .icasco-toast-progress,
+.icasco-toast:focus-within .icasco-toast-progress {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .icasco-toast {
+    animation: none;
+  }
+}
+
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.92);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes onboardingStepInForward {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes onboardingStepInBack {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes onboardingFadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .onboarding-step-enter-forward,
+  .onboarding-step-enter-back,
+  .onboarding-fade-up,
+  .onboarding-card-selected,
+  .onboarding-card-deselected {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+/* Neutral checkerboard behind uploaded logos and marks, so white or transparent artwork stays visible. */
+.asset-checkerboard {
+  background-color: #ffffff;
+  background-image:
+    linear-gradient(45deg, #eef2f7 25%, transparent 25%),
+    linear-gradient(-45deg, #eef2f7 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, #eef2f7 75%),
+    linear-gradient(-45deg, transparent 75%, #eef2f7 75%);
+  background-size: 16px 16px;
+  background-position: 0 0, 0 8px, 8px -8px, -8px 0;
+}
+
+.asset-checkerboard-dark {
+  background-color: #1e293b;
+  background-image:
+    linear-gradient(45deg, #273449 25%, transparent 25%),
+    linear-gradient(-45deg, #273449 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, #273449 75%),
+    linear-gradient(-45deg, transparent 75%, #273449 75%);
+  background-size: 16px 16px;
+  background-position: 0 0, 0 8px, 8px -8px, -8px 0;
+}
+
+/* Brief highlight on a field reached from an error link. */
+.field-flash {
+  animation: fieldFlash 1.6s ease-out;
+  border-radius: var(--radius-md);
+}
+
+@keyframes fieldFlash {
+  0%,
+  35% {
+    box-shadow: 0 0 0 3px rgba(212, 160, 23, 0.55);
+  }
+  100% {
+    box-shadow: 0 0 0 3px rgba(212, 160, 23, 0);
+  }
+}
