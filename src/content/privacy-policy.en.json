@@ -1,0 +1,248 @@
+{
+  "title": "Privacy Policy",
+  "meta": {
+    "updated": "Last updated: 01/06/2026 | Version: 1.0"
+  },
+  "sections": [
+    {
+      "number": 1,
+      "title": "Introduction and Scope",
+      "paragraphs": [
+        "iCASCO, operated by CASCO for Assessment Services, is committed to protecting the privacy of users, customers, certification bodies, auditors, inspectors, and other parties who use or interact with the platform. This Policy explains what data we may collect or process, why we process it, how we protect it, and what rights data subjects may have.",
+        "This Policy applies to the iCASCO website, cloud platform, dashboards, customer portals, auditor or inspector applications, registration forms, APIs, and any related digital services. It does not apply to third-party websites or services accessible through external links, which are governed by their own privacy policies."
+      ],
+      "bullets": []
+    },
+    {
+      "number": 2,
+      "title": "Who We Are",
+      "paragraphs": [
+        "iCASCO is a SaaS platform designed to manage accreditation, certification, audit, inspection, and conformity assessment workflows for certification bodies, conformity assessment bodies, and related organizations.",
+        "Owner/operator: CASCO for Assessment Services.",
+        "Address: 61 Al Falaki Street, Abdeen, Cairo, Arab Republic of Egypt.",
+        "Privacy email: support@icasco.co",
+        "Website: www.icasco.co"
+      ],
+      "bullets": []
+    },
+    {
+      "number": 3,
+      "title": "Data Processing Roles",
+      "paragraphs": [
+        "Depending on the context, iCASCO may act in different data protection roles:",
+        "As a data controller for account, subscription, billing, communication, marketing, customer support, and platform security data.",
+        "As a data processor for data uploaded or entered by customers into the platform, such as certification client records, audit files, reports, evidence, certificates, and nonconformity records.",
+        "The customer remains responsible for ensuring that it has the required legal basis and notices for the personal data it enters into or processes through iCASCO."
+      ],
+      "bullets": []
+    },
+    {
+      "number": 4,
+      "title": "Data We May Collect or Process",
+      "paragraphs": [
+        "Depending on how the platform is used, we may collect or process the following categories of data:",
+        "Account data: name, email address, phone number, job title, encrypted password, user role, permissions, and login data.",
+        "Organization data: company name, registration details, address, country, sites/branches, contact details, and account administrators.",
+        "Accreditation and certification data: applications, scopes, standards, plans, reports, findings, nonconformities, corrective actions, certification decisions, and renewal records.",
+        "Auditor and inspector data: qualifications, experience, technical scopes, work locations, availability, authorization, performance records, and travel-cost data when logistics modules are used.",
+        "Files and documents: policies, procedures, evidence, images, attachments, customer records, and review records.",
+        "Payment and billing data: subscription information, invoices, payment status, and transaction records. We do not store full payment card details unless handled through an authorized payment provider.",
+        "Support and communication data: messages, support tickets, correspondence, meeting notes, and survey responses.",
+        "Technical data: IP address, device and browser type, operating system, login logs, activity logs, technical errors, and performance data.",
+        "AI-related data where enabled: user prompts or inputs sent to AI-assisted features, generated outputs, and human approval records."
+      ],
+      "bullets": []
+    },
+    {
+      "number": 5,
+      "title": "How We Collect Data",
+      "paragraphs": [
+        "Directly from you when you create an account, complete a form, request a proposal, use the platform, or contact us.",
+        "From the customer or organization that grants you access to the platform.",
+        "From files and documents uploaded by users within the platform.",
+        "From third-party integrations approved by the customer.",
+        "From cookies and similar technologies, analytics tools, and security tools used on the website or platform."
+      ],
+      "bullets": []
+    },
+    {
+      "number": 6,
+      "title": "Purposes of Processing",
+      "paragraphs": [
+        "We use data only for purposes related to providing, operating, securing, and improving the platform, including:",
+        "Creating accounts, managing access rights, and verifying identity.",
+        "Operating platform modules such as application management, planning, execution, reporting, nonconformities, corrective actions, certificates, billing, and notifications.",
+        "Providing technical support and responding to inquiries.",
+        "Managing subscriptions, invoices, payments, and contractual obligations.",
+        "Protecting the platform, preventing fraud and unauthorized access, and maintaining audit logs.",
+        "Improving performance and user experience and analyzing usage in aggregated or anonymized form where possible.",
+        "Sending operational communications, such as account notifications, scheduling alerts, nonconformity updates, renewal reminders, and security notices.",
+        "Enabling AI-assisted features when selected by the customer, such as draft writing or technical review assistance, while final decisions remain with authorized human users.",
+        "Complying with legal, regulatory, or contractual requirements."
+      ],
+      "bullets": []
+    },
+    {
+      "number": 7,
+      "title": "Legal Basis for Processing",
+      "paragraphs": [
+        "Depending on the applicable law and the nature of the data, processing may rely on one or more legal bases, including performance of a contract, consent, legitimate interests in protecting and improving the platform, compliance with a legal obligation, or customer instructions where iCASCO acts as a processor."
+      ],
+      "bullets": []
+    },
+    {
+      "number": 8,
+      "title": "Confidentiality of Audit and Certification Data",
+      "paragraphs": [
+        "iCASCO treats audit, certification, and customer files as confidential data. We do not sell such data, use it for advertising, or disclose it outside the scope of providing the service, unless authorized by the customer or required by applicable law or regulation. Access to such data is restricted based on account permissions and the need-to-know principle."
+      ],
+      "bullets": []
+    },
+    {
+      "number": 9,
+      "title": "AI-Assisted Features",
+      "paragraphs": [
+        "iCASCO may include AI-assisted features, such as draft report writing, suggested classification of findings, technical consistency checks, or data summarization. These features are assistive only and do not issue final accreditation, certification, or technical decisions.",
+        "AI-generated content must be reviewed and approved by an authorized human user before official use.",
+        "AI features may be enabled or disabled according to customer settings or the contracted package.",
+        "Personal or sensitive data should not be entered into AI tools unless necessary for legitimate business purposes.",
+        "Customer data will not be used to train public AI models unless expressly agreed or covered by a separate written agreement."
+      ],
+      "bullets": []
+    },
+    {
+      "number": 10,
+      "title": "Sharing Data with Third Parties",
+      "paragraphs": [
+        "We do not sell personal data. We may share data, only to the extent necessary, with:",
+        "Cloud hosting, database, storage, and backup providers.",
+        "Email, messaging, notification, and customer support providers.",
+        "Payment and billing providers for subscription and payment processing.",
+        "Analytics, security, anti-spam, and anti-fraud providers.",
+        "AI or automated processing providers where such features are enabled.",
+        "Legal advisors, accountants, or auditors where necessary.",
+        "Governmental, judicial, or regulatory authorities where disclosure is legally required.",
+        "Any other party expressly approved by the customer or user."
+      ],
+      "bullets": []
+    },
+    {
+      "number": 11,
+      "title": "International Data Transfers",
+      "paragraphs": [
+        "Data may be hosted or processed in different countries depending on the service providers and cloud infrastructure used. Where data is transferred outside the user’s or customer’s country, we take appropriate measures to protect it, such as contractual safeguards, access controls, encryption, risk assessment, and compliance with applicable legal requirements. Specific hosting or data-residency requirements may be agreed contractually for enterprise customers."
+      ],
+      "bullets": []
+    },
+    {
+      "number": 12,
+      "title": "Data Retention and Deletion",
+      "paragraphs": [
+        "We retain data only for as long as necessary to achieve the purposes described in this Policy, or to meet legal, contractual, regulatory, accounting, or security requirements. When data is no longer needed, it is deleted, anonymized, or securely archived in accordance with applicable controls.",
+        "Account and subscription data: retained while the account or contract is active, and then for the period required for legal and accounting obligations.",
+        "Audit and certification data: retained according to the customer contract, agreed retention policy, accreditation body requirements, and applicable law.",
+        "Activity and security logs: retained for a period necessary to protect the platform and investigate incidents, usually not exceeding 12 months unless required.",
+        "Backups: may remain for a limited period within the backup cycle and are then overwritten or deleted automatically.",
+        "Aggregated or anonymized analytics data: may be retained to improve the service where it does not directly identify individuals."
+      ],
+      "bullets": []
+    },
+    {
+      "number": 13,
+      "title": "Data Security",
+      "paragraphs": [
+        "We implement appropriate technical and organizational measures to protect data against unauthorized access, loss, damage, alteration, or unlawful disclosure. These measures may include:",
+        "Role-based access control aligned with user responsibilities.",
+        "Secure transmission of data using appropriate encryption protocols.",
+        "Encrypted or hashed password storage.",
+        "Activity and audit logs for important platform operations.",
+        "Backup and recovery arrangements.",
+        "Least-privilege access for users and support teams.",
+        "Periodic security testing and reviews where feasible.",
+        "Incident response and vulnerability management procedures.",
+        "No electronic transmission or storage method is 100% secure. Users are responsible for keeping their login details confidential and using available security features."
+      ],
+      "bullets": []
+    },
+    {
+      "number": 14,
+      "title": "Cookies and Similar Technologies",
+      "paragraphs": [
+        "The iCASCO website and platform may use cookies or similar technologies to operate the service and improve user experience. These may include:",
+        "Essential cookies: required for login, security, and session management.",
+        "Functional cookies: used to remember language and user preferences.",
+        "Analytics cookies: used to understand usage and improve performance, preferably in aggregated or anonymized form.",
+        "Marketing cookies: used only where enabled and where consent is required by applicable law.",
+        "Users can manage cookies through their browser settings or through a consent management tool where available. Disabling essential cookies may prevent certain platform functions from working properly."
+      ],
+      "bullets": []
+    },
+    {
+      "number": 15,
+      "title": "Analytics and Security Services",
+      "paragraphs": [
+        "We may use website analytics tools or anti-spam tools such as reCAPTCHA or similar services to improve the service and protect forms and accounts from automated or fraudulent use. These tools may process technical data such as IP address, browser type, device information, and usage patterns in accordance with their own policies."
+      ],
+      "bullets": []
+    },
+    {
+      "number": 16,
+      "title": "Data Subject Rights",
+      "paragraphs": [
+        "Depending on the applicable law, you may have the right to:",
+        "Request access to your personal data.",
+        "Request correction of inaccurate data or completion of incomplete data.",
+        "Request deletion of your data or restriction of processing where legally available.",
+        "Object to certain types of processing.",
+        "Withdraw consent where processing is based on consent, without affecting prior processing.",
+        "Request a portable copy of certain data where applicable.",
+        "Lodge a complaint with the competent data protection authority in your jurisdiction.",
+        "Where your data is part of a customer-controlled dataset in iCASCO, we may refer your request to that customer as the data controller, or cooperate with the customer to respond in accordance with applicable agreements and laws."
+      ],
+      "bullets": []
+    },
+    {
+      "number": 17,
+      "title": "Children’s Data",
+      "paragraphs": [
+        "iCASCO is a professional business platform and is not directed to children. We do not knowingly collect children’s data for account creation or marketing purposes. If a customer uploads children’s data as part of audit or certification files, the customer is responsible for ensuring that the required legal basis and safeguards are in place."
+      ],
+      "bullets": []
+    },
+    {
+      "number": 18,
+      "title": "Marketing Communications and Newsletters",
+      "paragraphs": [
+        "We may send marketing communications, service updates, or newsletters where we have an appropriate legal basis or consent where required. Users may unsubscribe from marketing communications at any time. This does not affect necessary operational messages related to the account, service, or security."
+      ],
+      "bullets": []
+    },
+    {
+      "number": 19,
+      "title": "Security Incident Notification",
+      "paragraphs": [
+        "If a security incident affects personal data, we will assess the incident, take appropriate steps to mitigate its impact, and notify customers, competent authorities, or data subjects where required by applicable legal or contractual obligations."
+      ],
+      "bullets": []
+    },
+    {
+      "number": 20,
+      "title": "Updates to This Policy",
+      "paragraphs": [
+        "We may update this Policy from time to time to reflect changes in the platform, applicable law, or our data processing practices. The updated version will be published on the website or within the platform, and we may notify customers of material changes by email or in-platform notice."
+      ],
+      "bullets": []
+    },
+    {
+      "number": 21,
+      "title": "Contact Us",
+      "paragraphs": [
+        "For privacy or data protection questions or requests, please contact us at:",
+        "Email: support@icasco.co",
+        "Address: 61 Al Falaki Street, Abdeen, Cairo, Arab Republic of Egypt.",
+        "Data Protection Officer / Privacy Contact: Mohamed El Mananwahly | +201028485872 |"
+      ],
+      "bullets": []
+    }
+  ]
+}
