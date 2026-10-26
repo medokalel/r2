@@ -1,0 +1,363 @@
+{
+  "travel": {
+    "nav": {
+      "policy": "Travel policy"
+    },
+    "workspace": {
+      "title": "Travel policy",
+      "description": "Rules, rates and providers of the travel cost calculator."
+    },
+    "workQueue": {
+      "stale": "Refresh travel cost estimate"
+    },
+    "common": {
+      "cancel": "Cancel",
+      "retry": "Try again",
+      "loading": "Loading travel costs…",
+      "working": "Working…",
+      "km": "km",
+      "justification": "Justification",
+      "justificationHint": "At least {{count}} characters. Saved in the audit trail."
+    },
+    "panel": {
+      "title": "Travel and logistics costs",
+      "subtitleQuotation": "Estimate the travel of the audit team from their base to the client's sites, compare itineraries and use the approved total on the quotation.",
+      "subtitlePlan": "Estimate the travel of this audit, approve it, then record the actual costs to see the variance.",
+      "samples": "Sample rates still to confirm in the travel policy: {{count}}.",
+      "openPolicy": "Open travel policy",
+      "sitesCount": "Sites: {{count}}",
+      "teamCount": "Auditors: {{count}}",
+      "warnings": "Some inputs could not be priced",
+      "pricedAt": "Priced {{date}}",
+      "validUntil": "Valid until",
+      "bookBy": "Book by",
+      "priceLabel": "Price type",
+      "assumptions": "Assumptions ({{count}})",
+      "secondApprover": "A manual change above the approval threshold must be approved by another CAB user or the CAB administrator.",
+      "quotationAmount": "Travel expenses on the quotation",
+      "amountFromEstimate": "Filled from the approved estimate {{number}}. Change the estimate to change this amount.",
+      "amountManual": "Approve an estimate to fill this amount, or enter it yourself (a manual amount is not a confirmed price).",
+      "quoted": "Travel on the quotation: {{amount}}"
+    },
+    "banner": {
+      "estimateTitle": "Estimate, not a confirmed price",
+      "estimateText": "Some lines are benchmarks, advance prices, demo offers or manual amounts. Valid until {{date}}; refresh before the client approves or before booking.",
+      "confirmedTitle": "Confirmed prices",
+      "confirmedText": "Every line comes from a connected provider or a confirmed policy rate. Valid until {{date}}.",
+      "staleTitle": "Inputs changed: refresh this estimate",
+      "staleText": "The audit dates, team or sites changed since this estimate was priced.",
+      "expiredTitle": "Prices expired",
+      "expiredText": "The prices expired on {{date}}. Refresh them before using this estimate."
+    },
+    "inputs": {
+      "mode": "Audit mode",
+      "remoteHint": "A remote audit has no physical travel, so no travel costs.",
+      "startDate": "First audit day",
+      "endDate": "Last audit day",
+      "endBeforeStart": "The last day must be on or after the first day.",
+      "sites": "Sites to visit",
+      "siteName": "Site",
+      "city": "City",
+      "cityFromAddress": "Find the city in the address",
+      "onsite": "On site",
+      "removeSite": "Remove site",
+      "addSite": "Add site",
+      "locatedAt": "Located in {{city}} ({{source}})",
+      "cityTable": "city list",
+      "notLocated": "Location not found: choose the city.",
+      "team": "Audit team",
+      "teamFromStep": "The team comes from the previous step.",
+      "noTeam": "Add at least one auditor to price the travel.",
+      "auditor": "Auditor",
+      "base": "Travels from",
+      "baseFromProfile": "Base from the employee profile",
+      "baseIs": "Base: {{city}} ({{source}})",
+      "removeAuditor": "Remove auditor",
+      "addAuditor": "Add auditor"
+    },
+    "actions": {
+      "calculate": "Calculate",
+      "save": "Save estimate",
+      "recalculate": "Recalculate",
+      "editInputs": "Change inputs",
+      "refresh": "Refresh prices",
+      "addCost": "Add documented cost",
+      "approve": "Approve estimate",
+      "actuals": "Record actual costs"
+    },
+    "options": {
+      "title": "Itinerary options",
+      "lowestCost": "Lowest cost",
+      "fastest": "Fastest",
+      "hours": "Travel time: {{hours}} h (all auditors)"
+    },
+    "option": {
+      "recommended": "Recommended",
+      "cheapest": "Lowest cost",
+      "fastest": "Fastest",
+      "remote": "Remote"
+    },
+    "table": {
+      "title": "Cost breakdown",
+      "empty": "No travel costs for this audit.",
+      "category": "Category",
+      "description": "Description",
+      "quantity": "Quantity",
+      "unitAmount": "Unit amount",
+      "estimated": "Estimated",
+      "actual": "Actual",
+      "variance": "Variance",
+      "status": "Price status",
+      "actions": "Actions",
+      "details": "Details",
+      "adjust": "Adjust",
+      "remove": "Remove",
+      "needsApproval": "Needs another approver"
+    },
+    "totals": {
+      "subtotal": "Subtotal",
+      "contingency": "Contingency",
+      "total": "Estimated total",
+      "actual": "Actual total",
+      "variance": "Variance"
+    },
+    "details": {
+      "source": "Source",
+      "retrieved": "Retrieved",
+      "expires": "Offer expires",
+      "cacheAge": "Cached for",
+      "minutes": "{{count}} min",
+      "original": "Original price",
+      "fx": "Exchange rate",
+      "offer": "Offer reference",
+      "assumption": "Assumption",
+      "adjustedBy": "Changed by",
+      "reason": "Justification",
+      "calculated": "Calculated amount",
+      "actualNote": "Actual cost note"
+    },
+    "adjust": {
+      "title": "Adjust a cost line",
+      "submit": "Save adjustment",
+      "reset": "Restore calculated price",
+      "newAmount": "New amount {{amount}} (calculated {{calculated}})",
+      "placeholder": "Why this amount? For example: corporate hotel rate, contract reference.",
+      "needsApproval": "This change is above the approval threshold: another CAB user or the CAB administrator must approve the estimate."
+    },
+    "addLine": {
+      "title": "Add a documented cost",
+      "description": "For a cost the calculator does not know, with its supporting document.",
+      "submit": "Add cost",
+      "documentRef": "Supporting document (reference)"
+    },
+    "remove": {
+      "title": "Remove a documented cost",
+      "submit": "Remove"
+    },
+    "actuals": {
+      "title": "Actual travel costs",
+      "description": "Enter what was really paid for each line, with the receipt or invoice reference. Leave empty to clear.",
+      "submit": "Save actual costs",
+      "estimated": "Estimated {{amount}}",
+      "note": "Receipt or note"
+    },
+    "trail": {
+      "title": "Audit trail ({{count}})",
+      "system": "System",
+      "action": {
+        "CREATED": "Estimate created",
+        "REFRESHED": "Prices refreshed",
+        "RECALCULATED": "Recalculated with new inputs",
+        "OPTION_SELECTED": "Itinerary option changed",
+        "ADJUSTED": "Line adjusted",
+        "ADJUSTMENT_RESET": "Calculated price restored",
+        "LINE_ADDED": "Documented cost added",
+        "LINE_REMOVED": "Documented cost removed",
+        "APPROVED": "Estimate approved",
+        "APPLIED_TO_QUOTATION": "Total written to the quotation",
+        "LINKED_TO_QUOTATION": "Linked to the quotation",
+        "ACTUALS_RECORDED": "Actual costs recorded",
+        "MARKED_STALE": "Marked for refresh",
+        "SUPERSEDED": "Replaced by a newer approval"
+      }
+    },
+    "toast": {
+      "saved": "Travel estimate saved.",
+      "recalculated": "Estimate recalculated.",
+      "refreshed": "Prices refreshed.",
+      "approved": "Travel estimate approved."
+    },
+    "errors": {
+      "generic": "Something went wrong. Please try again.",
+      "loadTitle": "Travel costs are not available",
+      "load": "The travel cost data could not be loaded.",
+      "stale": "The inputs changed since this estimate was priced. Refresh it, then approve it again.",
+      "expired": "The prices of this estimate expired. Refresh them first.",
+      "separation": "You made a change above the approval threshold: another CAB user or the CAB administrator must approve.",
+      "notPriced": "Nothing could be priced: check the sites' cities and the auditors' bases."
+    },
+    "status": {
+      "LIVE": "Live",
+      "CACHED": "Cached",
+      "ADVANCE_ESTIMATE": "Advance estimate",
+      "BENCHMARK": "Benchmark",
+      "POLICY": "Policy rate",
+      "MANUAL": "Manual",
+      "DEMO": "Demo"
+    },
+    "statusHint": {
+      "LIVE": "Price from a connected provider, with its retrieval time and offer expiry.",
+      "CACHED": "Live price reused from a recent search; its age is shown.",
+      "ADVANCE_ESTIMATE": "Provider price for a date far ahead; expected to change before booking.",
+      "BENCHMARK": "Estimate from the travel policy; the assumption is shown.",
+      "POLICY": "Rate confirmed by your CAB in the travel policy.",
+      "MANUAL": "Amount entered or changed by a person, with a justification.",
+      "DEMO": "Sample data for demonstration; never a real price."
+    },
+    "estimateStatus": {
+      "PREVIEW": "Not saved",
+      "DRAFT": "Draft",
+      "APPROVED": "Approved",
+      "SUPERSEDED": "Replaced"
+    },
+    "mode": {
+      "ONSITE": "On site",
+      "REMOTE": "Remote",
+      "HYBRID": "Hybrid"
+    },
+    "legMode": {
+      "LOCAL": "local",
+      "GROUND": "by car",
+      "TRAIN": "by train",
+      "FLIGHT": "by air"
+    },
+    "horizon": {
+      "PAST": "Past dates: benchmark prices",
+      "LIVE_WINDOW": "Near term: live prices when a provider is connected",
+      "ADVANCE": "Advance prices",
+      "BEYOND_HORIZON": "Beyond the booking window: benchmark prices"
+    },
+    "category": {
+      "FLIGHT": "Flights",
+      "TRAIN": "Trains",
+      "GROUND": "Car and road",
+      "AIRPORT_TRANSFER": "Airport transfers",
+      "LOCAL_TRANSPORT": "Local transport",
+      "ACCOMMODATION": "Accommodation",
+      "PER_DIEM": "Per diem",
+      "VISA": "Visa",
+      "INSURANCE": "Travel insurance",
+      "OTHER": "Other documented cost",
+      "CONTINGENCY": "Contingency"
+    },
+    "cabin": {
+      "ECONOMY": "Economy",
+      "PREMIUM_ECONOMY": "Premium economy",
+      "BUSINESS": "Business"
+    },
+    "providers": {
+      "title": "Pricing providers",
+      "intro": "Live prices need a connected provider. Without one, every price is a labelled benchmark from this policy.",
+      "phase2": "Phase 2: provider integration (flight, hotel and FX APIs) and the CAB's own confirmed rates. Until then, estimates use the configurable sample rates of this policy.",
+      "check": "Check connection",
+      "none": "Not connected",
+      "reachable": "Reachable",
+      "unreachable": "Not reachable",
+      "checkedAt": "Checked {{date}}",
+      "kind": {
+        "flights": "Flights",
+        "hotels": "Hotels",
+        "transfers": "Airport transfers",
+        "rail": "Trains",
+        "fx": "Exchange rates",
+        "maps": "Distances"
+      },
+      "state": {
+        "live": "Live",
+        "demo": "Demo data",
+        "on": "Connected",
+        "off": "Benchmark only"
+      },
+      "hint": {
+        "live": "Live prices from this provider.",
+        "demo": "Sample data: shown as Demo, never as live prices.",
+        "on": "Connected; used to estimate, not a market price.",
+        "off": "No provider: the benchmark rates of this policy are used."
+      }
+    },
+    "policy": {
+      "title": "Travel policy",
+      "subtitle": "The rules and rates the travel cost calculator uses when no live price is available.",
+      "save": "Save policy",
+      "saved": "Travel policy saved.",
+      "updated": "Last saved {{date}} by {{name}}",
+      "samplesTitle": "Sample values to confirm: {{count}}",
+      "samplesText": "The seeded rates are examples, not official figures. Check each row, change it if needed and tick Confirmed.",
+      "rules": "Rules",
+      "currency": "Policy currency",
+      "group": {
+        "transport": "Transport",
+        "trip": "Trip planning",
+        "costs": "Costs",
+        "pricing": "Pricing and approval"
+      },
+      "settings": {
+        "economyMaxFlightHours": "Economy up to (flight hours)",
+        "longFlightCabin": "Cabin above that duration",
+        "carVsFlightKm": "Drive below (road km)",
+        "maxGroundHours": "Longest road trip (hours)",
+        "airportTransferDefault": "Airport transfer per ride",
+        "carRentalPerDay": "Car rental per day",
+        "fuelPerKm": "Fuel and tolls per km",
+        "localTransportPerDay": "Local transport per day",
+        "passengersPerCar": "Auditors per car",
+        "travelBufferDays": "Travel buffer (days)",
+        "earlyArrivalThresholdHours": "Arrive the day before above (hours)",
+        "lateReturnThresholdHours": "Return the next day above (hours)",
+        "combineSitesKm": "Combine sites within (km)",
+        "localRadiusKm": "Local, no hotel, within (km)",
+        "maxExtraHoursForSaving": "Extra hours accepted to save money",
+        "contingencyPct": "Contingency (%)",
+        "insurancePct": "Travel insurance (%)",
+        "defaultHotelRate": "Default hotel rate",
+        "defaultPerDiem": "Default per diem",
+        "flightBaseFare": "Benchmark fare base",
+        "flightPerKm": "Benchmark fare per km",
+        "premiumEconomyMultiplier": "Premium economy factor",
+        "businessMultiplier": "Business factor",
+        "liveWindowDays": "Live window (days ahead)",
+        "bookingHorizonDays": "Booking horizon (days ahead)",
+        "benchmarkAnnualIncreasePct": "Yearly benchmark increase (%)",
+        "quoteValidityDays": "Estimate validity (days)",
+        "bookingLeadDays": "Book this many days before",
+        "adjustmentApprovalThreshold": "Second approval above (amount)",
+        "groundSpeedKmh": "Average road speed (km/h)",
+        "roadFactor": "Road distance factor",
+        "airportOverheadHours": "Airport time per flight (hours)",
+        "insuranceDomestic": "Insure domestic trips too",
+        "perDiemOnLocalAudits": "Pay per diem on local audits"
+      },
+      "countries": "Rates per country",
+      "countriesHint": "Per diem, hotel cap and visa fee per country. The visa fee applies to auditors based in another country.",
+      "country": "Country (ISO)",
+      "perDiem": "Per diem",
+      "hotelCap": "Hotel cap per night",
+      "visaFee": "Visa fee",
+      "note": "Note",
+      "confirmed": "Confirmed",
+      "removeRow": "Remove row",
+      "addCountry": "Add country",
+      "cities": "Hotel caps per city",
+      "city": "City",
+      "addCity": "Add city",
+      "rail": "Rail benchmark routes",
+      "railHint": "No rail booking service is connected: these fares are used and shown as benchmarks.",
+      "from": "From",
+      "to": "To",
+      "fare": "Fare (one way)",
+      "hours": "Duration (hours)",
+      "operator": "Operator",
+      "addRoute": "Add route"
+    }
+  }
+}

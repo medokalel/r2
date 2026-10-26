@@ -1,0 +1,446 @@
+{
+  "team": {
+    "common": {
+      "hub": "Workspace",
+      "loadError": "Could not load the data. Try again.",
+      "none": "Not set"
+    },
+    "roles": {
+      "teamLeader": "Team leader",
+      "auditor": "Auditor",
+      "technicalExpert": "Technical expert",
+      "trainee": "Trainee auditor",
+      "observer": "Observer"
+    },
+    "roleCodes": {
+      "TEAM_LEADER": "Team leader",
+      "AUDITOR": "Auditor",
+      "TECHNICAL_EXPERT": "Technical expert",
+      "TRAINEE": "Trainee auditor",
+      "OBSERVER": "Observer"
+    },
+    "feasibilityRoles": {
+      "leadAuditor": "Lead auditor",
+      "auditor": "Auditor",
+      "technicalExpert": "Technical expert",
+      "trainee": "Trainee auditor",
+      "observer": "Observer"
+    },
+    "slots": {
+      "teamLeader": "Team leader",
+      "auditor": "Auditors",
+      "technicalExpert": "Technical experts",
+      "trainee": "Trainees",
+      "observer": "Observers and witnesses",
+      "empty": "Nobody yet",
+      "remove": "Remove {{name}}"
+    },
+    "slotHints": {
+      "teamLeader": "One, all standards",
+      "auditor": "Approved auditors",
+      "technicalExpert": "Sector knowledge only",
+      "trainee": "With a qualified auditor",
+      "observer": "No competence check"
+    },
+    "memberStatus": {
+      "ok": "Passes the checks",
+      "warn": "Passes with warnings",
+      "block": "Blocked"
+    },
+    "severity": {
+      "mandatory": "Mandatory",
+      "overridable": "Blocking",
+      "excepted": "Exception approved",
+      "warn": "Warning",
+      "info": "Note",
+      "block": "Blocking"
+    },
+    "criterion": {
+      "pass": "Met",
+      "partial": "Partly met",
+      "warn": "Warning",
+      "fail": "Not met",
+      "na": "Not checked"
+    },
+    "score": "Suitability score {{score}} of 100",
+    "components": {
+      "competence": "Competence fit",
+      "availability": "Availability",
+      "workload": "Workload balance",
+      "experience": "Sector experience",
+      "location": "Location",
+      "language": "Language"
+    },
+    "context": {
+      "client": "Client",
+      "standards": "Standards",
+      "codes": "IAF codes (amber = critical)",
+      "dates": "Audit dates",
+      "noDates": "Not planned yet",
+      "none": "None"
+    },
+    "candidate": {
+      "eligible": "Eligible",
+      "ineligible": "Not eligible",
+      "why": "Why",
+      "hide": "Hide",
+      "added": "In the team",
+      "criteria": "Criteria",
+      "scoreTitle": "Score {{score}} of 100",
+      "add": {
+        "teamLeader": "Set as team leader",
+        "auditor": "Add as auditor",
+        "technicalExpert": "Add as expert",
+        "trainee": "Add as trainee",
+        "observer": "Add as observer"
+      }
+    },
+    "recommended": {
+      "title": "Recommended people",
+      "forRole": "Recommendations for the role",
+      "search": "Search by name",
+      "loading": "Ranking the competence register...",
+      "empty": "No one matches. Show the people who are not eligible to see why.",
+      "showIneligible": "Show people who are not eligible ({{count}})"
+    },
+    "observer": {
+      "label": "External observer or witness",
+      "placeholder": "Name of the observer or accreditation witness",
+      "add": "Add observer"
+    },
+    "validation": {
+      "checking": "Checking the team...",
+      "blockedTitle": "The team cannot be confirmed yet: {{count}} blocking issue(s)",
+      "blockedMandatory": "Mandatory competence, scheduling and impartiality requirements cannot be overridden. Choose another person or change the team.",
+      "blockedOverridable": "These issues can be accepted only through an exception approved by a CAB admin, with a justification.",
+      "alternatives": "Qualified alternatives:",
+      "use": "Use {{name}} ({{role}})",
+      "requestException": "Request an exception",
+      "readyTitle": "The team passes the competence, availability and impartiality checks",
+      "readyHint": "Warnings to note: {{count}}.",
+      "showNotes": "Show notes ({{count}})",
+      "hideNotes": "Hide notes"
+    },
+    "coverage": {
+      "title": "Team coverage",
+      "scope": "Standard or IAF code",
+      "status": "Coverage",
+      "critical": "critical",
+      "covered": "Covered",
+      "missing": "Not covered",
+      "auditor": "Approved as auditor",
+      "expert": "Technical expert (sector knowledge)",
+      "auditorShort": "A",
+      "expertShort": "E",
+      "legend": "A: approved auditor for that standard and code. E: technical expert, counts for sector knowledge only. Every code in scope needs a competent member."
+    },
+    "exception": {
+      "title": "Request an exception",
+      "hint": "Only non-mandatory issues can be accepted. A CAB admin reviews the request in the work queue; it is kept in the audit trail.",
+      "justification": "Justification (at least 10 characters)",
+      "submit": "Send request",
+      "requested": "Exception requested. A CAB admin will review it."
+    },
+    "exceptions": {
+      "empty": "No exceptions.",
+      "hint": "Exceptions accept a non-mandatory blocking issue (travel buffer, missing declaration) for one person and one audit.",
+      "status": {
+        "PENDING": "Pending",
+        "APPROVED": "Approved",
+        "REJECTED": "Rejected"
+      },
+      "approve": "Approve",
+      "reject": "Reject",
+      "approveTitle": "Approve the exception",
+      "rejectTitle": "Reject the exception",
+      "notes": "Notes (required to reject)",
+      "approved": "Exception approved.",
+      "rejected": "Exception rejected.",
+      "requestedBy": "Requested by {{name}} on {{date}}",
+      "decidedBy": "decided by {{name}} on {{date}}",
+      "secondApproverRequired": "Another CAB admin must decide on this exception because the second approver rule is on."
+    },
+    "panel": {
+      "title": "Audit team",
+      "subtitle": "Recommended from the competence register; checked for competence, availability and impartiality. The plan is sent and started only with a confirmed team.",
+      "loading": "Loading...",
+      "confirm": "Confirm team",
+      "confirmed": "Audit team confirmed. The CAB and the assigned people were notified.",
+      "confirmedBadge": "Confirmed by {{name}} on {{date}}",
+      "notConfirmed": "Not confirmed",
+      "unsaved": "Changes not confirmed",
+      "note": "Note for the audit trail (optional)",
+      "notePlaceholder": "For example: agreed with the technical manager",
+      "confirmDisabled": "Confirm becomes available when there is a team leader and no blocking issue is left.",
+      "blockedByServer": "The server refused the team: {{count}} blocking issue(s). Review the issues above.",
+      "exceptions": "Exceptions ({{count}}, pending {{pending}})",
+      "history": "Team history ({{count}})"
+    },
+    "history": {
+      "empty": "No team decisions recorded yet.",
+      "actions": {
+        "TEAM_CONFIRMED": "Team confirmed",
+        "CONFIRM_BLOCKED": "Confirmation refused (blocking issues)",
+        "MEMBER_ADDED": "Member added",
+        "MEMBER_REMOVED": "Member removed",
+        "MEMBER_ROLE_CHANGED": "Role changed",
+        "TEAM_EDITED": "Team changed on the plan form",
+        "TEAM_CONFIRMATION_CLEARED": "Confirmation cleared after a change",
+        "FEASIBILITY_TEAM_SAVED": "Feasibility team saved",
+        "EXCEPTION_REQUESTED": "Exception requested",
+        "EXCEPTION_APPROVED": "Exception approved",
+        "EXCEPTION_REJECTED": "Exception rejected",
+        "SETTINGS_UPDATED": "Rules updated",
+        "UNAVAILABILITY_ADDED": "Unavailability recorded",
+        "UNAVAILABILITY_UPDATED": "Unavailability changed",
+        "UNAVAILABILITY_DELETED": "Unavailability deleted",
+        "RELATIONSHIP_RECORDED": "Relationship recorded",
+        "RELATIONSHIP_UPDATED": "Relationship changed",
+        "RELATIONSHIP_DELETED": "Relationship deleted",
+        "RELATIONSHIP_CONFIRMED": "Relationship confirmed",
+        "RELATIONSHIP_DISMISSED": "Relationship dismissed",
+        "DECLARATION_RECORDED": "Declaration recorded"
+      }
+    },
+    "availability": {
+      "title": "Availability",
+      "subtitle": "Leave and unavailable periods block the person on overlapping audits. Confirmed teams that overlap are checked again.",
+      "empty": "No unavailable periods.",
+      "from": "From",
+      "to": "To",
+      "reason": "Reason",
+      "notes": "Notes",
+      "add": "Record period",
+      "delete": "Delete",
+      "added": "Period recorded.",
+      "affected": "Confirmed audit teams to review: {{plans}}"
+    },
+    "reasons": {
+      "LEAVE": "Leave",
+      "TRAINING": "Training",
+      "SICK": "Sick leave",
+      "OTHER_ASSIGNMENT": "Other assignment",
+      "OTHER": "Unavailable"
+    },
+    "profile": {
+      "title": "Languages and base location",
+      "languages": "Audit languages",
+      "city": "Base city",
+      "country": "Base country",
+      "save": "Save",
+      "saved": "Saved."
+    },
+    "languages": {
+      "ar": "Arabic",
+      "en": "English",
+      "fr": "French",
+      "tr": "Turkish",
+      "ur": "Urdu",
+      "hi": "Hindi"
+    },
+    "declaration": {
+      "cardTitle": "Impartiality declarations",
+      "cardSubtitle": "Annual and per audit declarations signed by the person, and the relationships with clients they declared.",
+      "record": "Record declaration",
+      "title": "Declaration of {{name}}",
+      "hint": "Record the declaration the person signed. Declared relationships go to the CAB review.",
+      "kind": "Declaration",
+      "kinds": {
+        "ANNUAL": "Annual declaration",
+        "AUDIT": "Declaration for one audit"
+      },
+      "plan": "Audit plan",
+      "choosePlan": "Choose the audit plan",
+      "answer": "Answer",
+      "noConflicts": "No relationship that could threaten impartiality",
+      "hasRelationships": "Declares one or more relationships",
+      "relationship": "Relationship {{n}}",
+      "remove": "Remove",
+      "addRelationship": "Add another relationship",
+      "signedName": "Signed by",
+      "date": "Date signed",
+      "save": "Record",
+      "saved": "Declaration recorded.",
+      "status": {
+        "valid": "Annual declaration valid",
+        "expiring": "Annual declaration expiring",
+        "expired": "Annual declaration expired",
+        "missing": "No annual declaration"
+      },
+      "validUntil": "Valid until {{date}}",
+      "openRegister": "Open in the impartiality register",
+      "noConflictsShort": "No conflicts",
+      "relationshipsShort": "Relationships declared: {{count}}",
+      "signedBy": "signed by {{name}}"
+    },
+    "impartiality": {
+      "add": "Record relationship",
+      "addTitle": "Record a relationship",
+      "editTitle": "Edit the relationship",
+      "addHint": "Consultancy, internal audits, employment, family or financial interest, previous certification decisions. Ongoing relationships block; consultancy, internal audit and employment block during the cooling-off period.",
+      "save": "Save",
+      "saved": "Relationship saved.",
+      "empty": "No relationships recorded.",
+      "fields": {
+        "person": "Person",
+        "choosePerson": "Choose the person",
+        "client": "Client",
+        "chooseClient": "Choose the client",
+        "notAClient": "Not a client yet (enter a name)",
+        "counterparty": "Organization name",
+        "type": "Type",
+        "description": "Description",
+        "start": "Start date",
+        "end": "End date",
+        "endHint": "Leave empty while it lasts"
+      },
+      "types": {
+        "CONSULTANCY": "Consultancy",
+        "INTERNAL_AUDIT": "Internal audit service",
+        "EMPLOYMENT": "Employment",
+        "FAMILY": "Family relationship",
+        "FINANCIAL_INTEREST": "Financial interest",
+        "CERTIFICATION_DECISION": "Previous certification decision",
+        "OTHER": "Other"
+      },
+      "effect": {
+        "blocks": "Blocks team selection",
+        "blocksUntil": "Blocks until {{date}}",
+        "warns": "Warning only",
+        "none": "No effect"
+      },
+      "review": {
+        "PENDING": "Pending review",
+        "CONFIRMED": "Confirmed",
+        "DISMISSED": "Dismissed"
+      },
+      "source": {
+        "DECLARATION": "Declared by the person",
+        "CAB_RECORD": "Recorded by the CAB"
+      },
+      "ongoing": "ongoing",
+      "unknownStart": "start not set",
+      "reviewedBy": "reviewed by {{name}}",
+      "confirm": "Confirm",
+      "dismiss": "Dismiss",
+      "edit": "Edit",
+      "delete": "Delete",
+      "deleted": "Relationship deleted.",
+      "reviewed": "Review recorded.",
+      "confirmTitle": "Confirm the relationship",
+      "confirmHint": "The relationship is real and team selection applies its effect.",
+      "dismissTitle": "Dismiss the relationship",
+      "dismissHint": "Explain why it is not a threat to impartiality (for example: wrong client). Dismissed records stay in the register but do not block.",
+      "reviewNotes": "Review notes"
+    },
+    "register": {
+      "title": "Impartiality register",
+      "subtitle": "Declarations, relationships with clients and the team-selection rules. Cooling-off period: {{months}} months.",
+      "availability": "Availability calendar",
+      "backToList": "Back to all people",
+      "kpi": {
+        "valid": "Valid annual declarations",
+        "missing": "Missing or expired",
+        "pending": "Relationships to review",
+        "blocking": "Blocking relationships"
+      },
+      "tabs": {
+        "people": "People",
+        "relationships": "Relationships",
+        "exceptions": "Exceptions",
+        "settings": "Rules"
+      },
+      "cols": {
+        "person": "Person",
+        "declaration": "Annual declaration",
+        "validUntil": "Valid until",
+        "relationships": "Relationships",
+        "pending": "To review",
+        "blocking": "Blocking"
+      },
+      "emptyTitle": "No personnel yet",
+      "emptyHint": "Add people to the personnel register first.",
+      "reviewFilter": "Review status",
+      "allReviews": "All"
+    },
+    "settings": {
+      "title": "Team selection rules",
+      "subtitle": "Applied to every recommendation and validation of this CAB.",
+      "save": "Save rules",
+      "saved": "Rules saved.",
+      "fields": {
+        "coolingOffMonths": "Cooling-off period (months)",
+        "travelBufferDays": "Travel buffer (days)",
+        "workloadWindowDays": "Workload window (days)",
+        "maxAuditDaysInWindow": "Audit days limit in the window",
+        "declarationValidityMonths": "Annual declaration validity (months)",
+        "expiryWarningDays": "Approval expiry warning (days)",
+        "requireAnnualDeclaration": "Require a valid annual declaration for audit plans",
+        "requireAuditDeclaration": "Require a declaration for each audit",
+        "exceptionSecondApprover": "Second approver for exceptions (optional)"
+      },
+      "hints": {
+        "coolingOffMonths": "After consultancy, internal audit or employment ends, the person cannot audit that client for this period.",
+        "travelBufferDays": "Free days needed between two audits of the same person.",
+        "workloadWindowDays": "Look-back period used to balance the workload.",
+        "maxAuditDaysInWindow": "Above this, a workload warning is shown.",
+        "declarationValidityMonths": "How long an annual declaration stays valid.",
+        "expiryWarningDays": "Warn when a competence approval expires within this many days after the audit.",
+        "requireAnnualDeclaration": "Blocking, but an exception can accept it.",
+        "requireAuditDeclaration": "Blocking, but an exception can accept it. Otherwise shown as a note.",
+        "exceptionSecondApprover": "Off by default. When on, the admin who requested an exception cannot approve or reject it; another CAB admin decides."
+      }
+    },
+    "calendar": {
+      "title": "Availability calendar",
+      "subtitle": "Audit assignments, leave and conflicts of the auditing staff, by day.",
+      "person": "Person",
+      "previous": "Previous month",
+      "next": "Next month",
+      "unconfirmed": "team not confirmed",
+      "conflict": "Conflict: {{items}}",
+      "free": "Free all month",
+      "legend": {
+        "confirmed": "Audit, team confirmed",
+        "unconfirmed": "Audit, not confirmed",
+        "leave": "Leave or unavailable",
+        "conflict": "Double booking or leave during an audit"
+      }
+    },
+    "lead": {
+      "title": "Recommended team leaders",
+      "withDates": "Checked on the selected dates",
+      "withoutDates": "Add dates to check availability",
+      "none": "No eligible team leader for this scope.",
+      "use": "Use"
+    },
+    "feasibility": {
+      "hint": "Recommended from the competence register for the application's standards and IAF codes, with impartiality checks. Availability is checked when the audit plan is built."
+    },
+    "workQueue": {
+      "exceptionApproval": "Approve a team-selection exception",
+      "impartialityReview": "Review a declared relationship"
+    },
+    "notifications": {
+      "audit_team_assigned": {
+        "title": "Audit team confirmed for {{ref}}",
+        "body": "{{client}}, from {{date}}: {{team}}."
+      },
+      "team_exception_requested": {
+        "title": "Team exception requested for {{ref}}",
+        "body": "An exception for {{issue}} ({{person}}) needs a CAB admin's approval."
+      },
+      "team_exception_decided": {
+        "title": "Team exception {{decision}} for {{ref}}",
+        "body": "The exception for {{issue}} was {{decision}}."
+      },
+      "impartiality_declared": {
+        "title": "Impartiality declaration to review",
+        "body": "{{person}} declared {{count}} relationship(s) with clients."
+      }
+    },
+    "nav": {
+      "impartiality": "Impartiality and availability"
+    }
+  }
+}

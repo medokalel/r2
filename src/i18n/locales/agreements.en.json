@@ -1,0 +1,339 @@
+{
+  "agreements": {
+    "nav": {
+      "cab": "Agreements",
+      "portal": "Agreements",
+      "terms": "Agreement terms"
+    },
+    "workspace": {
+      "title": "Certification agreements",
+      "description": "Send the certification agreement, collect e-signatures and keep every version.",
+      "termsTitle": "Agreement terms",
+      "termsDescription": "Your agreement template, its variables and the audit plan gate."
+    },
+    "common": {
+      "hub": "Application Hub",
+      "settings": "Settings",
+      "cancel": "Cancel",
+      "save": "Save",
+      "loadError": "The agreements could not be loaded. Try again.",
+      "notSet": "Not set",
+      "notRecorded": "Not recorded",
+      "breadcrumb": "Breadcrumb"
+    },
+    "kind": {
+      "original": "Certification agreement",
+      "amendment": "Amendment to the certification agreement"
+    },
+    "status": {
+      "draft": "Draft",
+      "sent": "Sent",
+      "client_signed": "Signed by client",
+      "active": "Active",
+      "superseded": "Superseded",
+      "terminated": "Terminated"
+    },
+    "next": {
+      "draft": "Review and send",
+      "sent": "Waiting for the client to sign",
+      "client_signed": "Countersign",
+      "active": "In force",
+      "superseded": "Replaced by a newer version",
+      "terminated": "No action"
+    },
+    "method": {
+      "typed": "Typed name",
+      "drawn": "Drawn signature",
+      "uploaded": "Uploaded image"
+    },
+    "actor": {
+      "cab": "Certification body",
+      "client": "Client",
+      "system": "System"
+    },
+    "requestType": {
+      "scopeChange": "Scope change",
+      "siteChange": "Site change",
+      "transfer": "Transfer"
+    },
+    "fields": {
+      "reference": "Reference",
+      "client": "Client",
+      "cab": "Certification body",
+      "status": "Status",
+      "standards": "Standards",
+      "scope": "Scope",
+      "offer": "Offer",
+      "sentAt": "Sent on",
+      "activeSince": "Active since",
+      "updated": "Last change",
+      "reminders": "Reminders"
+    },
+    "variables": {
+      "client.legalName": "Client legal name",
+      "client.representative": "Client representative",
+      "client.address": "Client address",
+      "standards": "Standards",
+      "scope": "Scope of certification",
+      "sites": "Sites (separate with ;)",
+      "fees": "Fees (separate with ;)",
+      "currency": "Currency",
+      "paymentTerms": "Payment terms"
+    },
+    "register": {
+      "title": "Certification agreements",
+      "subtitle": "The legally enforceable agreement with each client (ISO/IEC 17021-1 clause 5.1.2): drafted when the client accepts the offer, signed electronically by both parties.",
+      "terms": "Agreement terms",
+      "generate": "Generate agreement",
+      "generated": "Agreement {{reference}} generated.",
+      "search": "Search reference, client or standard",
+      "allStatuses": "All statuses",
+      "nextStep": "Next step",
+      "emptyTitle": "No agreements yet",
+      "emptyHint": "An agreement is drafted automatically when a client accepts an offer. You can also generate one for any client.",
+      "noMatch": "No agreements match your filters.",
+      "clientFilter": "Showing the agreements of {{client}}.",
+      "clearFilter": "Show all",
+      "footnote": "Stage 1, Stage 2 and recertification plans can be sent only when the client's agreement is active. Change this rule in Agreement terms.",
+      "kpi": {
+        "toSend": "Drafts to send",
+        "awaitingClient": "Waiting for client",
+        "toCountersign": "To countersign",
+        "active": "Active"
+      }
+    },
+    "generate": {
+      "title": "Generate agreement",
+      "description": "The draft uses your agreement terms and the client's latest accepted offer. You can edit it before sending.",
+      "submit": "Generate",
+      "choose": "Choose a client"
+    },
+    "detail": {
+      "summary": "Summary",
+      "versions": "Versions",
+      "draftHint": "This is a draft. Check the values, then send it to the client for signature.",
+      "superseded": "This version was replaced by",
+      "terminated": "Terminated on {{date}}. Reason: {{reason}}",
+      "reminders": "Sent: {{count}}, last on {{date}}"
+    },
+    "actions": {
+      "send": "Send to client",
+      "remind": "Send reminder",
+      "countersign": "Countersign",
+      "amend": "Create amendment",
+      "terminate": "Terminate agreement",
+      "edit": "Edit values",
+      "refresh": "Use latest terms",
+      "download": "Download PDF",
+      "downloadSigned": "Download signed PDF"
+    },
+    "toast": {
+      "sent": "Agreement sent to the client.",
+      "reminded": "Reminder sent to the client.",
+      "countersigned": "Agreement countersigned. It is now active.",
+      "terminated": "Agreement terminated.",
+      "saved": "Agreement updated.",
+      "refreshed": "The draft now uses your latest agreement terms.",
+      "amended": "Amendment {{reference}} created as a draft.",
+      "signed": "Thank you. The agreement is signed and sent to the certification body."
+    },
+    "edit": {
+      "title": "Edit agreement values",
+      "description": "These values fill the variables of the agreement text. Changes apply to this draft only."
+    },
+    "terminate": {
+      "title": "Terminate {{reference}}",
+      "description": "Termination cannot be undone. If the client received the agreement, they are notified.",
+      "reason": "Reason for termination"
+    },
+    "amend": {
+      "title": "Amend {{reference}}",
+      "description": "An amendment is a new version of the agreement. When both parties sign it, it replaces the current version.",
+      "source": "Linked certification cycle request",
+      "noSource": "No linked request",
+      "reason": "Reason for the amendment",
+      "submit": "Create amendment"
+    },
+    "amendment": {
+      "title": "Amendment",
+      "replaces": "Replaces {{reference}}."
+    },
+    "document": {
+      "title": "Agreement text",
+      "language": "Language of the text"
+    },
+    "flow": {
+      "label": "Signing progress"
+    },
+    "signatures": {
+      "title": "Signatures",
+      "client": "Client",
+      "cab": "Certification body",
+      "pending": "Not signed yet",
+      "signedAt": "Signed on",
+      "method": "Method",
+      "ip": "IP address",
+      "hash": "Document fingerprint",
+      "imageAlt": "Signature of {{name}}"
+    },
+    "trail": {
+      "title": "Audit trail",
+      "empty": "No activity yet.",
+      "ip": "IP address {{ip}}"
+    },
+    "events": {
+      "GENERATED": "Agreement drafted",
+      "UPDATED": "Draft edited",
+      "SENT": "Sent to the client",
+      "REMINDED": "Reminder sent",
+      "VIEWED": "Opened by the client",
+      "OTP_SENT": "Signing code sent",
+      "OTP_FAILED": "Wrong signing code",
+      "CLIENT_SIGNED": "Signed by the client",
+      "COUNTERSIGNED": "Countersigned by the certification body",
+      "SUPERSEDED": "Replaced by a newer version",
+      "TERMINATED": "Terminated",
+      "AMENDMENT_CREATED": "Amendment created",
+      "INTEGRITY_FAILED": "Integrity check failed"
+    },
+    "integrity": {
+      "title": "Document integrity",
+      "ok": "The text matches the fingerprint sealed when it was sent.",
+      "failed": "The stored text does not match its sealed fingerprint. Do not rely on this copy and contact iCASCO support.",
+      "draft": "Draft: the fingerprint is sealed when you send the agreement.",
+      "documentHash": "SHA-256 document fingerprint",
+      "draftHash": "SHA-256 fingerprint of the current draft",
+      "sealHash": "SHA-256 seal (text and both signatures)",
+      "notSealed": "Not sealed yet",
+      "check": "Integrity check"
+    },
+    "sign": {
+      "titleClient": "Sign the certification agreement",
+      "titleCab": "Countersign the certification agreement",
+      "description": "You are signing {{reference}}. Your signature applies to the text in both languages.",
+      "fingerprint": "Document fingerprint (SHA-256):",
+      "name": "Full name",
+      "jobTitle": "Job title",
+      "signature": "Signature",
+      "consent": "I have read the agreement and agree to sign it electronically. My name, title, signature, date and time, IP address and device are recorded with it.",
+      "codeTitle": "Signing code",
+      "codeHint": "We email you a 6 digit code. It is valid for 10 minutes and you have 5 attempts.",
+      "codeSent": "Code sent to {{to}}. It is valid for 10 minutes.",
+      "sendCode": "Email me a code",
+      "resend": "Send a new code",
+      "demoCode": "Preview mode: no email is sent. Your code is",
+      "code": "Enter the 6 digit code",
+      "submitClient": "Sign agreement",
+      "submitCab": "Countersign"
+    },
+    "gate": {
+      "blockTitle": "This plan cannot be sent yet",
+      "warnTitle": "No active certification agreement",
+      "body": "Stage 1, Stage 2 and recertification audits need an active certification agreement with the client (signed by the client and countersigned by you).",
+      "openAgreement": "Open agreement {{reference}}",
+      "openRegister": "Generate the agreement"
+    },
+    "errors": {
+      "AGREEMENT_REQUIRED": "This client has no active certification agreement. Send the agreement and have it signed before sending a Stage 1, Stage 2 or recertification plan.",
+      "AGREEMENT_INVALID_STATUS": "This action is not available for the agreement in its current status. Refresh the page.",
+      "SIGNING_ORDER": "The client signs first. You can countersign once the client has signed.",
+      "OTP_REQUIRED": "Request a signing code first.",
+      "OTP_INVALID": "The code is not correct. Attempts left: {{attemptsLeft}}.",
+      "OTP_EXPIRED": "The code has expired. Request a new one.",
+      "OTP_LOCKED": "Too many wrong codes. Request a new code.",
+      "OTP_RATE_LIMIT": "A code was sent less than a minute ago. Try again in {{seconds}} seconds.",
+      "DOCUMENT_CHANGED": "The agreement changed after you opened it. Reload the page and review it again.",
+      "DOCUMENT_INTEGRITY_FAILED": "The agreement text no longer matches its sealed fingerprint, so it cannot be signed. Contact the certification body.",
+      "REMINDER_RATE_LIMIT": "A reminder was already sent in the last 24 hours.",
+      "AMENDMENT_IN_PROGRESS": "An amendment of this agreement is already in progress. Finish or terminate it first.",
+      "UNKNOWN_VARIABLE": "The text uses variables that do not exist: {{variables}}.",
+      "NO_EMAIL": "Your account has no email address to receive the signing code."
+    },
+    "terms": {
+      "title": "Agreement terms",
+      "subtitle": "The certification agreement your clients sign: bilingual sections with variables, filled for each client.",
+      "draftNoticeTitle": "Default text: draft for the product owner's review",
+      "draftNotice": "The default text covers the obligations of ISO/IEC 17021-1 clause 5.1.2 in our own words. Have it reviewed by your legal adviser and adapt it to your rules before using it with clients.",
+      "usingDefault": "You are using the default text. Saving creates your own version.",
+      "version": "Version {{version}}, saved by {{name}} on {{date}}",
+      "gateTitle": "Audit plan gate",
+      "gateHint": "What happens when a Stage 1, Stage 2 or recertification plan is sent and the client has no active agreement.",
+      "gate": {
+        "block": "Block (recommended)",
+        "blockHint": "The plan cannot be sent until the agreement is active.",
+        "warn": "Warn",
+        "warnHint": "The plan is sent and a warning is shown."
+      },
+      "sections": "Sections ({{count}})",
+      "addSection": "Add section",
+      "untitled": "Untitled section",
+      "moveUp": "Move up",
+      "moveDown": "Move down",
+      "remove": "Remove section",
+      "titleEn": "Title (English)",
+      "titleAr": "Title (Arabic)",
+      "bodyEn": "Text (English)",
+      "bodyAr": "Text (Arabic)",
+      "variablesTitle": "Variables",
+      "variablesHint": "Click a variable to insert it where your cursor is. Each agreement fills it with the client's values.",
+      "copied": "{{token}} copied. Paste it into the text.",
+      "previewTitle": "Preview",
+      "previewWith": "Fill the variables with",
+      "sampleValues": "Sample values",
+      "preview": "Show preview",
+      "closePreview": "Close preview",
+      "saved": "Agreement terms saved. New agreements use this version.",
+      "reset": "Restore default text",
+      "resetTitle": "Restore the default text?",
+      "resetHint": "Your sections are replaced by the default text. The audit plan gate setting is kept. Existing agreements do not change.",
+      "resetDone": "The default text is restored."
+    },
+    "portal": {
+      "title": "Agreements",
+      "subtitle": "Certification agreements from your certification body: review, sign and download.",
+      "toSign": "Agreements waiting for your signature: {{count}}",
+      "emptyTitle": "No agreements yet",
+      "emptyHint": "Your certification body sends the agreement after you accept the offer. It appears here for your signature.",
+      "reviewSign": "Review and sign",
+      "view": "View",
+      "sign": "Sign agreement",
+      "signHint": "Read the agreement in English or Arabic, then sign it. We email you a code to confirm your signature.",
+      "waitingCab": "You signed this agreement. It becomes active when the certification body countersigns it.",
+      "terminated": "The certification body terminated this agreement. Reason: {{reason}}"
+    },
+    "pdf": {
+      "signedCopy": "Electronically signed copy",
+      "notSigned": "Not yet signed by both parties",
+      "trailTitle": "Audit trail and verification",
+      "signer": "Signer",
+      "device": "Device",
+      "when": "Date and time",
+      "event": "Event",
+      "by": "By",
+      "verifyNote": "Each signature was confirmed with a one-time code sent by email. Any change to the text changes its SHA-256 fingerprint.",
+      "page": "Page {{page}} of {{total}}"
+    },
+    "notifications": {
+      "agreement_drafted": {
+        "title": "Agreement {{ref}} drafted",
+        "body": "The certification agreement for {{client}} is ready. Review it and send it for signature."
+      },
+      "agreement_signed_by_client": {
+        "title": "Agreement {{ref}} signed by the client",
+        "body": "{{client}} signed the certification agreement. Countersign it to make it active."
+      },
+      "agreement_to_sign": {
+        "title": "Agreement {{ref}} to sign",
+        "body": "Review the certification agreement and sign it electronically."
+      },
+      "agreement_active": {
+        "title": "Agreement {{ref}} is active",
+        "body": "Both parties have signed the certification agreement. Download the signed copy."
+      },
+      "agreement_terminated": {
+        "title": "Agreement {{ref}} terminated",
+        "body": "The certification body terminated the certification agreement."
+      }
+    }
+  }
+}

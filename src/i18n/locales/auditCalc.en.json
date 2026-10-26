@@ -1,0 +1,225 @@
+{
+  "auditCalc": {
+    "category": {
+      "HIGH": "High",
+      "MEDIUM": "Medium",
+      "LOW": "Low",
+      "LIMITED": "Limited",
+      "SPECIAL": "Special",
+      "none": "Not set"
+    },
+    "classification": {
+      "title": "Business sector risk and complexity (IAF MD 5)",
+      "hint": "Suggested from the IAF codes of the scope and the sites: the highest category among the codes. Authorised users can change it with a justification.",
+      "why": "Suggested {{category}}: the highest category among the IAF codes, given by IAF code {{codes}} in IAF MD 5 {{table}}.",
+      "energy": "ISO 50001 complexity comes from energy consumption, energy types and significant energy uses (ISO 50003), not from IAF codes.",
+      "noMapped": "None of the IAF codes has an IAF MD 5 category: choose the category.",
+      "qmsDefault": "No IAF code on the scope: the Table QMS 1 time applies (medium risk).",
+      "noCodes": "No IAF code on the scope or the sites: choose the category.",
+      "code": "IAF code",
+      "entries": "IAF MD 5 sector entries",
+      "category": "Category",
+      "status": "Status",
+      "noEntry": "No entry",
+      "effect": "Effect on the audit time",
+      "confirmed": "Confirmed",
+      "noCategoryQms": "No MD 5 category; table time used",
+      "noCategory": "No MD 5 category; not used for the suggestion",
+      "noCategoryShort": "No MD 5 category",
+      "mappingConfirmed": "IAF code to IAF MD 5 category mapping confirmed by the product owner on 25 October 2026.",
+      "note": {
+        "MIXED": "Mixed: the code covers entries of different categories. The highest non-Special one is suggested; the others are alternatives.",
+        "PARTIAL": "Partial: the listed entry covers only part of the code.",
+        "INTERPRETED": "Interpreted: linked by reading the code description (not named in the table)."
+      }
+    },
+    "table": {
+      "ISO_9001": "Table QMS 2 (QMS risk)",
+      "ISO_14001": "Table EMS 2 (EMS complexity)",
+      "ISO_45001": "Table OH&SMS 2 (OH&S risk)"
+    },
+    "source": {
+      "SUGGESTED": "Suggested",
+      "OVERRIDE": "Override",
+      "SELECTED": "Chosen by the CAB",
+      "DEFAULT": "Table time",
+      "NONE": "Not set"
+    },
+    "effect": {
+      "none": "Choose a category to calculate the audit time.",
+      "QMS_HIGH": "High risk: IAF MD 5 expects more time than Table QMS 1 (Table QMS 2, Note 1). Add an increase factor with its reason (clause 8).",
+      "QMS_MEDIUM": "Medium risk: the Table QMS 1 time applies without a risk factor.",
+      "QMS_LOW": "Low risk: may need less time than Table QMS 1 (Table QMS 2, Note 1). A reduction factor is allowed within the 30 % cap (clause 8).",
+      "SPECIAL": "Special case: not covered by Table EMS 1. Enter the audit time developed and justified for this organisation (IAF MD 5 Annex B).",
+      "ENERGY": "Selects the {{category}} column of ISO 50003 Table A.3 and the surveillance and recertification times of Table A.4.",
+      "COLUMN": "Selects the {{category}} column of IAF MD 5 {{table}}."
+    },
+    "override": {
+      "category": "New category",
+      "justification": "Justification (required)",
+      "tooShort": "Write at least {{count}} characters.",
+      "lowered": "Lowering the category is recorded with your name, the date and the justification (IAF MD 5 Annex B and Annex C).",
+      "reset": "Use the suggested category",
+      "change": "Change classification",
+      "notAllowed": "Only the CAB administrator, the general manager, the technical manager or the certification manager can change the classification.",
+      "recorded": "Changed from {{from}} to {{to}} by {{by}}: {{reason}}",
+      "someone": "an authorised user",
+      "log": "Classification changes",
+      "logLine": "{{from}} to {{to}}, by {{by}} on {{date}}: {{reason}}"
+    },
+    "special": {
+      "days": "Individual audit time (days)",
+      "justification": "How the time was developed (required)"
+    },
+    "eligibility": {
+      "title": "Sampling eligibility (IAF MD 1)",
+      "hint": "Confirm each criterion. Sampling applies only when all are met; otherwise every site is audited individually (IAF MD 1 §6.2).",
+      "eligible": "Sampling applies",
+      "off": "Sampling switched off",
+      "notEligible": "Sampling not allowed: sites audited individually",
+      "markCentral": "Mark the central function below",
+      "status": {
+        "MET": "Met",
+        "NOT_MET": "Not met",
+        "NOT_CONFIRMED": "Not confirmed",
+        "DECLARED": "Declared"
+      },
+      "answer": {
+        "yes": "Yes",
+        "no": "No",
+        "unknown": "Not confirmed"
+      }
+    },
+    "criterion": {
+      "CENTRAL_FUNCTION": "A central function is identified (a site is marked as central function)",
+      "SINGLE_MANAGEMENT_SYSTEM": "One management system covers all sites",
+      "CENTRAL_AUTHORITY": "The central function defines, establishes and maintains the system",
+      "CENTRAL_MANAGEMENT_REVIEW": "The system is subject to a centralised management review",
+      "INTERNAL_AUDIT_ALL_SITES": "All sites are covered by the internal audit programme",
+      "CENTRAL_DATA_ANALYSIS": "The central function collects and analyses data from all sites and can initiate change",
+      "LEGAL_LINK": "Every site has a legal or contractual link with the central function",
+      "SIMILAR_PROCESSES": "The sites perform very similar processes and activities",
+      "NO_SCHEME_RESTRICTION": "No scheme or regulatory rule requires every site to be audited",
+      "CLIENT_ACCEPTS_SAMPLING": "The client has not asked for every site to be audited"
+    },
+    "options": {
+      "sampling": "Use sampling when eligible",
+      "systemEffective": "System proved effective over the cycle (recertification sample 0.8√x)",
+      "siteReduction": "Reduction per sampled site (%, max 50)",
+      "increase": "Extra sampled sites for risk (IAF MD 1 §6.1.3.5)",
+      "increaseReason": "Reason for the extra sites",
+      "increaseReasonRequired": "Give the reason (3 characters or more)."
+    },
+    "sites": {
+      "title": "Sites in the certification scope",
+      "count": "{{count}} sites",
+      "hint": "Each site is timed from its own effective personnel. Days are recalculated whenever a site is added, removed or changed.",
+      "unnamed": "Site {{number}}",
+      "name": "Site name",
+      "location": "Location",
+      "employees": "Effective personnel",
+      "temporary": "Temporary",
+      "shifts": "Shifts",
+      "activities": "Activities",
+      "iafCodes": "IAF codes",
+      "standards": "Standards at the site (empty = all)",
+      "type": "Site type",
+      "permanent": "Permanent",
+      "temporarySite": "Temporary",
+      "central": "Central function",
+      "sameProcesses": "Same processes as the other sites",
+      "isNew": "New site",
+      "individual": "Audit this site individually",
+      "individualReason": "Why this site is audited individually",
+      "invalid": "Each site needs a name and a whole number of personnel of at least 1; an individual audit needs a reason.",
+      "tableDays": "Table time {{days}} days",
+      "reduction": "Reduction {{percent}} %",
+      "mandatory": "Mandatory in the first audit (new site)",
+      "add": "Add site",
+      "groupColumn": "Group",
+      "visitedColumn": "Visited (initial / S1 / S2 / recert.)",
+      "visit": {
+        "INITIAL": "Initial",
+        "SURVEILLANCE_1": "S1",
+        "SURVEILLANCE_2": "S2",
+        "RECERTIFICATION": "Recert."
+      },
+      "group": {
+        "CENTRAL": "Central function",
+        "SAMPLED": "Sampled group",
+        "INDIVIDUAL": "Audited individually"
+      },
+      "reason": {
+        "CENTRAL_FUNCTION": "Central function: audited at every audit",
+        "NOT_ELIGIBLE": "Sampling not allowed: an IAF MD 1 criterion is not met or not confirmed",
+        "SAMPLING_NOT_REQUESTED": "Sampling switched off",
+        "DIFFERENT_PROCESSES": "Different processes or activities",
+        "INDIVIDUAL_REQUESTED": "Individual audit requested",
+        "HIGHER_RISK": "Higher risk category than the other sites"
+      }
+    },
+    "cycle": {
+      "title": "Three-year certification cycle",
+      "nextRecertification": "Recertification of the next cycle (information): {{days}} days"
+    },
+    "print": "Print or save as PDF",
+    "pdf": {
+      "title": "Audit time calculation",
+      "criterion": "Criterion",
+      "clause": "Clause",
+      "suggested": "Suggested",
+      "table": "Table",
+      "step": "Step",
+      "reference": "Reference",
+      "change": "Change",
+      "by": "By",
+      "date": "Date",
+      "document": "Document",
+      "topic": "Topic"
+    },
+    "step": {
+      "CLASSIFICATION": "Category {{category}} (suggested {{suggested}} from IAF codes {{codes}})",
+      "CLASSIFICATION_OVERRIDE": "Category {{category}}: override of the suggested {{suggested}}. Justification: {{justification}}",
+      "CLASSIFICATION_SELECTED": "Category {{category}} chosen by the CAB",
+      "SPECIAL_CASE": "Special category, individual time {{days}} days: {{justification}}",
+      "SAMPLE_INCREASE": "Sample increased by {{sites}} site(s) for risk: {{reason}}",
+      "SITES_VISITED": "Sites visited: {{names}}",
+      "MULTI_SITE": "{{sites}} sites; sampling x = {{sampledGroup}} sites, central function included (IAF MD 1 §6.1.3.3): {{sampleInitial}} initial / {{sampleSurveillance}} surveillance / {{sampleRecertification}} recertification sites: {{days}} days",
+      "MULTI_SITE_GROUPS": "{{sites}} sites; sampling x = {{sampledGroup}} sites, central function included (IAF MD 1 §6.1.3.3): {{sampleInitial}} initial / {{sampleSurveillance}} surveillance / {{sampleRecertification}} recertification sites; {{individualGroup}} audited individually ({{individualSurveillance}} per surveillance): {{days}} days",
+      "MULTI_SITE_INDIVIDUAL": "{{sites}} sites, no sampling: {{individualGroup}} sites audited individually ({{individualSurveillance}} per surveillance): {{days}} days",
+      "RATIO": "{{ratioLabel}} × {{basisDays}} days of the sites visited = {{rawDays}} → {{days}} days",
+      "RATIO_MIN": "{{ratioLabel}} × {{basisDays}} days of the sites visited = {{rawDays}} → minimum {{minimumDays}} day → {{days}} days"
+    },
+    "warning": {
+      "SAMPLING_NEEDS_CENTRAL_FUNCTION": "Sampling needs a central function; every site is audited individually (IAF MD 1 §6.2).",
+      "SAMPLING_NOT_ELIGIBLE": "An IAF MD 1 criterion is not met or not confirmed: sites are audited individually (§6.2).",
+      "CLASSIFICATION_UNVERIFIED": "{{standard}}: calculated before the IAF code mapping was confirmed (25 October 2026). Recalculate to refresh.",
+      "CLASSIFICATION_UNMAPPED": "{{standard}}: some IAF codes have no IAF MD 5 category, so they do not set the category.",
+      "QMS_HIGH_RISK_NO_INCREASE": "{{standard}}: high-risk activities need more time than Table QMS 1; add an increase factor.",
+      "MULTI_SITE_NOT_APPLIED_SPECIAL": "{{standard}}: Special category; the individual time covers the organisation as a whole."
+    },
+    "addSite": {
+      "title": "Multi-site audit time (IAF MD 1)",
+      "hint": "Used by the quotation: the IAF codes suggest the risk category, and the answers below decide whether the site can be sampled or is audited individually.",
+      "temporaryEmployees": "Temporary personnel"
+    },
+    "tableName": {
+      "EMS": "Table EMS 1",
+      "OHS": "Table OH&SMS 1"
+    },
+    "recalc": {
+      "title": "Recalculate audit time",
+      "hint": "Runs the calculation again with the current application data, sites and classification. Days changed by hand are replaced; every recalculation is recorded with the totals before and after.",
+      "locked": "This quotation is issued or closed and cannot be recalculated. Cancel it and prepare a revised quotation.",
+      "notAllowed": "Only the CAB administrator, the general manager, the technical manager or the certification manager can recalculate a quotation.",
+      "reason": "Reason for the recalculation (required)",
+      "done": "Quotation recalculated. An approved quotation goes back for approval.",
+      "action": "Recalculate",
+      "history": "Recalculations",
+      "line": "{{beforeDays}} to {{afterDays}} days; total {{beforeAmount}} to {{afterAmount}}",
+      "by": "{{by}} on {{date}}: {{reason}}",
+      "reset": "{{count}} manual day changes replaced",
+      "reapproval": "sent back for approval"
+    }
+  }
+}

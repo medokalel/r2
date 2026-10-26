@@ -1,0 +1,446 @@
+{
+  "team": {
+    "common": {
+      "hub": "مساحة العمل",
+      "loadError": "تعذر تحميل البيانات. حاول مرة أخرى.",
+      "none": "غير محدد"
+    },
+    "roles": {
+      "teamLeader": "قائد الفريق",
+      "auditor": "مدقق",
+      "technicalExpert": "خبير فني",
+      "trainee": "مدقق متدرب",
+      "observer": "مراقب"
+    },
+    "roleCodes": {
+      "TEAM_LEADER": "قائد الفريق",
+      "AUDITOR": "مدقق",
+      "TECHNICAL_EXPERT": "خبير فني",
+      "TRAINEE": "مدقق متدرب",
+      "OBSERVER": "مراقب"
+    },
+    "feasibilityRoles": {
+      "leadAuditor": "المدقق الرئيسي",
+      "auditor": "مدقق",
+      "technicalExpert": "خبير فني",
+      "trainee": "مدقق متدرب",
+      "observer": "مراقب"
+    },
+    "slots": {
+      "teamLeader": "قائد الفريق",
+      "auditor": "المدققون",
+      "technicalExpert": "الخبراء الفنيون",
+      "trainee": "المتدربون",
+      "observer": "المراقبون والشهود",
+      "empty": "لا أحد بعد",
+      "remove": "إزالة {{name}}"
+    },
+    "slotHints": {
+      "teamLeader": "شخص واحد لكل المواصفات",
+      "auditor": "مدققون معتمدون",
+      "technicalExpert": "للمعرفة القطاعية فقط",
+      "trainee": "مع مدقق مؤهل",
+      "observer": "دون فحص كفاءة"
+    },
+    "memberStatus": {
+      "ok": "يجتاز الفحوص",
+      "warn": "يجتاز مع تنبيهات",
+      "block": "محظور"
+    },
+    "severity": {
+      "mandatory": "إلزامي",
+      "overridable": "مانع",
+      "excepted": "استثناء معتمد",
+      "warn": "تنبيه",
+      "info": "ملاحظة",
+      "block": "مانع"
+    },
+    "criterion": {
+      "pass": "مستوفى",
+      "partial": "مستوفى جزئياً",
+      "warn": "تنبيه",
+      "fail": "غير مستوفى",
+      "na": "لا يُتحقق منه"
+    },
+    "score": "درجة الملاءمة {{score}} من 100",
+    "components": {
+      "competence": "ملاءمة الكفاءة",
+      "availability": "التوافر",
+      "workload": "توازن عبء العمل",
+      "experience": "الخبرة القطاعية",
+      "location": "الموقع",
+      "language": "اللغة"
+    },
+    "context": {
+      "client": "العميل",
+      "standards": "المواصفات",
+      "codes": "رموز IAF (البرتقالي = حرج)",
+      "dates": "تواريخ التدقيق",
+      "noDates": "لم يُخطط بعد",
+      "none": "لا يوجد"
+    },
+    "candidate": {
+      "eligible": "مؤهل",
+      "ineligible": "غير مؤهل",
+      "why": "لماذا",
+      "hide": "إخفاء",
+      "added": "ضمن الفريق",
+      "criteria": "المعايير",
+      "scoreTitle": "الدرجة {{score}} من 100",
+      "add": {
+        "teamLeader": "تعيين قائداً للفريق",
+        "auditor": "إضافة كمدقق",
+        "technicalExpert": "إضافة كخبير",
+        "trainee": "إضافة كمتدرب",
+        "observer": "إضافة كمراقب"
+      }
+    },
+    "recommended": {
+      "title": "الأشخاص المقترحون",
+      "forRole": "الاقتراحات حسب الدور",
+      "search": "البحث بالاسم",
+      "loading": "جارٍ ترتيب سجل الكفاءة...",
+      "empty": "لا يوجد تطابق. اعرض غير المؤهلين لمعرفة السبب.",
+      "showIneligible": "عرض غير المؤهلين ({{count}})"
+    },
+    "observer": {
+      "label": "مراقب أو شاهد خارجي",
+      "placeholder": "اسم المراقب أو شاهد جهة الاعتماد",
+      "add": "إضافة مراقب"
+    },
+    "validation": {
+      "checking": "جارٍ فحص الفريق...",
+      "blockedTitle": "لا يمكن تأكيد الفريق بعد: عدد المسائل المانعة {{count}}",
+      "blockedMandatory": "لا يمكن تجاوز متطلبات الكفاءة والجدولة والحياد الإلزامية. اختر شخصاً آخر أو عدّل الفريق.",
+      "blockedOverridable": "لا تُقبل هذه المسائل إلا باستثناء يعتمده مسؤول الجهة مع مبرر.",
+      "alternatives": "بدائل مؤهلة:",
+      "use": "استخدام {{name}} ({{role}})",
+      "requestException": "طلب استثناء",
+      "readyTitle": "اجتاز الفريق فحوص الكفاءة والتوافر والحياد",
+      "readyHint": "تنبيهات للعلم: {{count}}.",
+      "showNotes": "عرض الملاحظات ({{count}})",
+      "hideNotes": "إخفاء الملاحظات"
+    },
+    "coverage": {
+      "title": "تغطية الفريق",
+      "scope": "المواصفة أو رمز IAF",
+      "status": "التغطية",
+      "critical": "حرج",
+      "covered": "مغطى",
+      "missing": "غير مغطى",
+      "auditor": "معتمد كمدقق",
+      "expert": "خبير فني (معرفة قطاعية)",
+      "auditorShort": "م",
+      "expertShort": "خ",
+      "legend": "م: مدقق معتمد لتلك المواصفة والرمز. خ: خبير فني يُحتسب للمعرفة القطاعية فقط. كل رمز ضمن النطاق يحتاج عضواً كفؤاً."
+    },
+    "exception": {
+      "title": "طلب استثناء",
+      "hint": "تُقبل المسائل غير الإلزامية فقط. يراجع مسؤول الجهة الطلب في قائمة المهام، ويُحفظ في سجل التدقيق.",
+      "justification": "المبرر (10 أحرف على الأقل)",
+      "submit": "إرسال الطلب",
+      "requested": "أُرسل طلب الاستثناء وسيراجعه مسؤول الجهة."
+    },
+    "exceptions": {
+      "empty": "لا توجد استثناءات.",
+      "hint": "يقبل الاستثناء مسألة مانعة غير إلزامية (مهلة السفر، إقرار ناقص) لشخص واحد في تدقيق واحد.",
+      "status": {
+        "PENDING": "قيد الانتظار",
+        "APPROVED": "معتمد",
+        "REJECTED": "مرفوض"
+      },
+      "approve": "اعتماد",
+      "reject": "رفض",
+      "approveTitle": "اعتماد الاستثناء",
+      "rejectTitle": "رفض الاستثناء",
+      "notes": "ملاحظات (مطلوبة عند الرفض)",
+      "approved": "اعتُمد الاستثناء.",
+      "rejected": "رُفض الاستثناء.",
+      "requestedBy": "طلبه {{name}} في {{date}}",
+      "decidedBy": "وقرر فيه {{name}} في {{date}}",
+      "secondApproverRequired": "يجب أن يتخذ مسؤول آخر في جهة منح الشهادة القرار بشأن هذا الاستثناء، لأن قاعدة الموافق الثاني مفعّلة."
+    },
+    "panel": {
+      "title": "فريق التدقيق",
+      "subtitle": "اقتراح من سجل الكفاءة مع فحص الكفاءة والتوافر والحياد. لا تُرسل الخطة ولا تبدأ إلا بفريق مؤكد.",
+      "loading": "جارٍ التحميل...",
+      "confirm": "تأكيد الفريق",
+      "confirmed": "تأكد فريق التدقيق، وأُبلغت الجهة والأشخاص المكلفون.",
+      "confirmedBadge": "أكده {{name}} في {{date}}",
+      "notConfirmed": "غير مؤكد",
+      "unsaved": "تغييرات غير مؤكدة",
+      "note": "ملاحظة لسجل التدقيق (اختيارية)",
+      "notePlaceholder": "مثال: تم الاتفاق مع المدير الفني",
+      "confirmDisabled": "يتاح التأكيد عند وجود قائد للفريق وعدم بقاء أي مسألة مانعة.",
+      "blockedByServer": "رفض الخادم الفريق: عدد المسائل المانعة {{count}}. راجع المسائل أعلاه.",
+      "exceptions": "الاستثناءات ({{count}}، قيد الانتظار {{pending}})",
+      "history": "سجل الفريق ({{count}})"
+    },
+    "history": {
+      "empty": "لا توجد قرارات فريق مسجلة بعد.",
+      "actions": {
+        "TEAM_CONFIRMED": "تأكيد الفريق",
+        "CONFIRM_BLOCKED": "رفض التأكيد (مسائل مانعة)",
+        "MEMBER_ADDED": "إضافة عضو",
+        "MEMBER_REMOVED": "إزالة عضو",
+        "MEMBER_ROLE_CHANGED": "تغيير الدور",
+        "TEAM_EDITED": "تعديل الفريق من نموذج الخطة",
+        "TEAM_CONFIRMATION_CLEARED": "إلغاء التأكيد بعد تغيير",
+        "FEASIBILITY_TEAM_SAVED": "حفظ فريق الجدوى الفنية",
+        "EXCEPTION_REQUESTED": "طلب استثناء",
+        "EXCEPTION_APPROVED": "اعتماد استثناء",
+        "EXCEPTION_REJECTED": "رفض استثناء",
+        "SETTINGS_UPDATED": "تحديث القواعد",
+        "UNAVAILABILITY_ADDED": "تسجيل عدم توافر",
+        "UNAVAILABILITY_UPDATED": "تعديل عدم توافر",
+        "UNAVAILABILITY_DELETED": "حذف عدم توافر",
+        "RELATIONSHIP_RECORDED": "تسجيل علاقة",
+        "RELATIONSHIP_UPDATED": "تعديل علاقة",
+        "RELATIONSHIP_DELETED": "حذف علاقة",
+        "RELATIONSHIP_CONFIRMED": "تأكيد علاقة",
+        "RELATIONSHIP_DISMISSED": "استبعاد علاقة",
+        "DECLARATION_RECORDED": "تسجيل إقرار"
+      }
+    },
+    "availability": {
+      "title": "التوافر",
+      "subtitle": "الإجازات وفترات عدم التوافر تمنع تكليف الشخص بالتدقيقات المتداخلة، وتُعاد مراجعة الفرق المؤكدة المتداخلة.",
+      "empty": "لا توجد فترات عدم توافر.",
+      "from": "من",
+      "to": "إلى",
+      "reason": "السبب",
+      "notes": "ملاحظات",
+      "add": "تسجيل الفترة",
+      "delete": "حذف",
+      "added": "سُجلت الفترة.",
+      "affected": "فرق تدقيق مؤكدة تحتاج مراجعة: {{plans}}"
+    },
+    "reasons": {
+      "LEAVE": "إجازة",
+      "TRAINING": "تدريب",
+      "SICK": "إجازة مرضية",
+      "OTHER_ASSIGNMENT": "مهمة أخرى",
+      "OTHER": "غير متاح"
+    },
+    "profile": {
+      "title": "اللغات والموقع الأساسي",
+      "languages": "لغات التدقيق",
+      "city": "المدينة الأساسية",
+      "country": "الدولة الأساسية",
+      "save": "حفظ",
+      "saved": "تم الحفظ."
+    },
+    "languages": {
+      "ar": "العربية",
+      "en": "الإنجليزية",
+      "fr": "الفرنسية",
+      "tr": "التركية",
+      "ur": "الأوردية",
+      "hi": "الهندية"
+    },
+    "declaration": {
+      "cardTitle": "إقرارات الحياد",
+      "cardSubtitle": "الإقرارات السنوية وإقرارات كل تدقيق التي وقعها الشخص، والعلاقات مع العملاء التي صرّح بها.",
+      "record": "تسجيل إقرار",
+      "title": "إقرار {{name}}",
+      "hint": "سجّل الإقرار الذي وقعه الشخص. تُحال العلاقات المصرّح بها لمراجعة الجهة.",
+      "kind": "نوع الإقرار",
+      "kinds": {
+        "ANNUAL": "إقرار سنوي",
+        "AUDIT": "إقرار لتدقيق واحد"
+      },
+      "plan": "خطة التدقيق",
+      "choosePlan": "اختر خطة التدقيق",
+      "answer": "الإجابة",
+      "noConflicts": "لا توجد علاقة قد تهدد الحياد",
+      "hasRelationships": "يصرّح بعلاقة أو أكثر",
+      "relationship": "العلاقة {{n}}",
+      "remove": "إزالة",
+      "addRelationship": "إضافة علاقة أخرى",
+      "signedName": "الموقّع",
+      "date": "تاريخ التوقيع",
+      "save": "تسجيل",
+      "saved": "سُجل الإقرار.",
+      "status": {
+        "valid": "الإقرار السنوي ساري",
+        "expiring": "الإقرار السنوي قارب على الانتهاء",
+        "expired": "الإقرار السنوي منتهٍ",
+        "missing": "لا يوجد إقرار سنوي"
+      },
+      "validUntil": "ساري حتى {{date}}",
+      "openRegister": "فتح في سجل الحياد",
+      "noConflictsShort": "لا تعارض",
+      "relationshipsShort": "علاقات مصرّح بها: {{count}}",
+      "signedBy": "وقّعه {{name}}"
+    },
+    "impartiality": {
+      "add": "تسجيل علاقة",
+      "addTitle": "تسجيل علاقة",
+      "editTitle": "تعديل العلاقة",
+      "addHint": "الاستشارات، وخدمات التدقيق الداخلي، والتوظيف، وصلة القرابة أو المصلحة المالية، وقرارات منح الشهادات السابقة. العلاقات القائمة تمنع التكليف، والاستشارات والتدقيق الداخلي والتوظيف تمنع خلال فترة التهدئة.",
+      "save": "حفظ",
+      "saved": "حُفظت العلاقة.",
+      "empty": "لا توجد علاقات مسجلة.",
+      "fields": {
+        "person": "الشخص",
+        "choosePerson": "اختر الشخص",
+        "client": "العميل",
+        "chooseClient": "اختر العميل",
+        "notAClient": "ليس عميلاً بعد (أدخل الاسم)",
+        "counterparty": "اسم الجهة",
+        "type": "النوع",
+        "description": "الوصف",
+        "start": "تاريخ البداية",
+        "end": "تاريخ النهاية",
+        "endHint": "اتركه فارغاً ما دامت العلاقة قائمة"
+      },
+      "types": {
+        "CONSULTANCY": "استشارات",
+        "INTERNAL_AUDIT": "خدمة تدقيق داخلي",
+        "EMPLOYMENT": "توظيف",
+        "FAMILY": "صلة قرابة",
+        "FINANCIAL_INTEREST": "مصلحة مالية",
+        "CERTIFICATION_DECISION": "قرار منح شهادة سابق",
+        "OTHER": "أخرى"
+      },
+      "effect": {
+        "blocks": "تمنع اختيار الفريق",
+        "blocksUntil": "تمنع حتى {{date}}",
+        "warns": "تنبيه فقط",
+        "none": "بلا أثر"
+      },
+      "review": {
+        "PENDING": "بانتظار المراجعة",
+        "CONFIRMED": "مؤكدة",
+        "DISMISSED": "مستبعدة"
+      },
+      "source": {
+        "DECLARATION": "صرّح بها الشخص",
+        "CAB_RECORD": "سجلتها الجهة"
+      },
+      "ongoing": "قائمة",
+      "unknownStart": "البداية غير محددة",
+      "reviewedBy": "راجعها {{name}}",
+      "confirm": "تأكيد",
+      "dismiss": "استبعاد",
+      "edit": "تعديل",
+      "delete": "حذف",
+      "deleted": "حُذفت العلاقة.",
+      "reviewed": "سُجلت المراجعة.",
+      "confirmTitle": "تأكيد العلاقة",
+      "confirmHint": "العلاقة صحيحة ويطبق اختيار الفريق أثرها.",
+      "dismissTitle": "استبعاد العلاقة",
+      "dismissHint": "وضّح لماذا لا تهدد الحياد (مثلاً: عميل خاطئ). تبقى السجلات المستبعدة في السجل لكنها لا تمنع.",
+      "reviewNotes": "ملاحظات المراجعة"
+    },
+    "register": {
+      "title": "سجل الحياد",
+      "subtitle": "الإقرارات والعلاقات مع العملاء وقواعد اختيار الفريق. فترة التهدئة: {{months}} شهراً.",
+      "availability": "تقويم التوافر",
+      "backToList": "العودة إلى كل الأشخاص",
+      "kpi": {
+        "valid": "إقرارات سنوية سارية",
+        "missing": "ناقصة أو منتهية",
+        "pending": "علاقات تحتاج مراجعة",
+        "blocking": "علاقات مانعة"
+      },
+      "tabs": {
+        "people": "الأشخاص",
+        "relationships": "العلاقات",
+        "exceptions": "الاستثناءات",
+        "settings": "القواعد"
+      },
+      "cols": {
+        "person": "الشخص",
+        "declaration": "الإقرار السنوي",
+        "validUntil": "ساري حتى",
+        "relationships": "العلاقات",
+        "pending": "للمراجعة",
+        "blocking": "مانعة"
+      },
+      "emptyTitle": "لا يوجد موظفون بعد",
+      "emptyHint": "أضف الأشخاص إلى سجل الموظفين أولاً.",
+      "reviewFilter": "حالة المراجعة",
+      "allReviews": "الكل"
+    },
+    "settings": {
+      "title": "قواعد اختيار الفريق",
+      "subtitle": "تُطبق على كل اقتراح وفحص في هذه الجهة.",
+      "save": "حفظ القواعد",
+      "saved": "حُفظت القواعد.",
+      "fields": {
+        "coolingOffMonths": "فترة التهدئة (بالأشهر)",
+        "travelBufferDays": "مهلة السفر (بالأيام)",
+        "workloadWindowDays": "فترة احتساب عبء العمل (بالأيام)",
+        "maxAuditDaysInWindow": "حد أيام التدقيق خلال الفترة",
+        "declarationValidityMonths": "مدة سريان الإقرار السنوي (بالأشهر)",
+        "expiryWarningDays": "التنبيه قبل انتهاء الاعتماد (بالأيام)",
+        "requireAnnualDeclaration": "اشتراط إقرار سنوي ساري لخطط التدقيق",
+        "requireAuditDeclaration": "اشتراط إقرار لكل تدقيق",
+        "exceptionSecondApprover": "معتمد ثانٍ للاستثناءات (اختياري)"
+      },
+      "hints": {
+        "coolingOffMonths": "بعد انتهاء الاستشارات أو التدقيق الداخلي أو التوظيف لا يدقق الشخص لدى ذلك العميل طوال هذه الفترة.",
+        "travelBufferDays": "أيام الفراغ المطلوبة بين تدقيقين للشخص نفسه.",
+        "workloadWindowDays": "فترة الرجوع المستخدمة لموازنة عبء العمل.",
+        "maxAuditDaysInWindow": "يظهر تنبيه عبء العمل عند تجاوزه.",
+        "declarationValidityMonths": "مدة بقاء الإقرار السنوي سارياً.",
+        "expiryWarningDays": "تنبيه عند انتهاء اعتماد الكفاءة خلال هذه الأيام بعد التدقيق.",
+        "requireAnnualDeclaration": "مانع، لكن يمكن قبوله باستثناء.",
+        "requireAuditDeclaration": "مانع، لكن يمكن قبوله باستثناء. وإلا يظهر كملاحظة.",
+        "exceptionSecondApprover": "غير مفعّل افتراضياً. عند تفعيله لا يعتمد المسؤول الاستثناء الذي طلبه ولا يرفضه، بل يقرر فيه مسؤول آخر في الجهة."
+      }
+    },
+    "calendar": {
+      "title": "تقويم التوافر",
+      "subtitle": "تكليفات التدقيق والإجازات والتعارضات لفريق التدقيق حسب اليوم.",
+      "person": "الشخص",
+      "previous": "الشهر السابق",
+      "next": "الشهر التالي",
+      "unconfirmed": "الفريق غير مؤكد",
+      "conflict": "تعارض: {{items}}",
+      "free": "متاح طوال الشهر",
+      "legend": {
+        "confirmed": "تدقيق بفريق مؤكد",
+        "unconfirmed": "تدقيق غير مؤكد",
+        "leave": "إجازة أو عدم توافر",
+        "conflict": "حجز مزدوج أو إجازة أثناء تدقيق"
+      }
+    },
+    "lead": {
+      "title": "قادة الفرق المقترحون",
+      "withDates": "تم الفحص على التواريخ المختارة",
+      "withoutDates": "أضف التواريخ لفحص التوافر",
+      "none": "لا يوجد قائد فريق مؤهل لهذا النطاق.",
+      "use": "استخدام"
+    },
+    "feasibility": {
+      "hint": "اقتراح من سجل الكفاءة حسب مواصفات الطلب ورموز IAF مع فحص الحياد. يُتحقق من التوافر عند إعداد خطة التدقيق."
+    },
+    "workQueue": {
+      "exceptionApproval": "اعتماد استثناء لاختيار الفريق",
+      "impartialityReview": "مراجعة علاقة مصرّح بها"
+    },
+    "notifications": {
+      "audit_team_assigned": {
+        "title": "تأكيد فريق التدقيق للخطة {{ref}}",
+        "body": "{{client}}، ابتداءً من {{date}}: {{team}}."
+      },
+      "team_exception_requested": {
+        "title": "طلب استثناء لفريق الخطة {{ref}}",
+        "body": "يحتاج استثناء {{issue}} ({{person}}) إلى موافقة مسؤول الجهة."
+      },
+      "team_exception_decided": {
+        "title": "قرار استثناء فريق الخطة {{ref}}",
+        "body": "صدر القرار في استثناء {{issue}}. افتح الخطة لعرضه."
+      },
+      "impartiality_declared": {
+        "title": "إقرار حياد بانتظار المراجعة",
+        "body": "صرّح {{person}} بعدد {{count}} من العلاقات مع العملاء."
+      }
+    },
+    "nav": {
+      "impartiality": "الحياد والتوافر"
+    }
+  }
+}
