@@ -1,0 +1,821 @@
+{
+  "key": "iso-13485",
+  "standardCode": "ISO_13485",
+  "kind": "STANDARD",
+  "standard": "ISO 13485:2016",
+  "name": {
+    "en": "ISO 13485 Medical devices quality management system",
+    "ar": "ISO 13485 نظام إدارة الجودة للأجهزة الطبية"
+  },
+  "version": "2026.10",
+  "status": "approved",
+  "approvedBy": "Product owner",
+  "approvedOn": "2026-10-25",
+  "reviewNote": {
+    "en": "Approved by the product owner on 25 October 2026. Requirement summaries are written in our own words with the clause number; they are not the text of the standard. Check clause numbers against the edition in your accreditation scope.",
+    "ar": "اعتمدها مالك المنتج في 25 أكتوبر 2026. ملخصات المتطلبات مكتوبة بصياغتنا مع رقم البند وليست نص المعيار. تحقق من أرقام البنود مقابل الإصدار المشمول في نطاق اعتمادك."
+  },
+  "items": [
+    {
+      "code": "MDQMS-01",
+      "clause": "4.1",
+      "title": {
+        "en": "Quality management system: general",
+        "ar": "نظام إدارة الجودة: عام"
+      },
+      "requirement": {
+        "en": "The QMS is documented and maintained in line with the standard and applicable regulatory requirements, the organization's role (manufacturer, distributor, importer) is stated, a risk-based approach controls processes, outsourced processes are controlled and software used in the QMS is validated.",
+        "ar": "نظام إدارة الجودة موثق ومُحافظ عليه وفق المعيار والمتطلبات التنظيمية المنطبقة، ودور المنظمة (مصنّع أو موزع أو مستورد) محدد، ويُضبط بنهج قائم على المخاطر، وتُضبط العمليات المسندة، ويُصدّق على البرمجيات المستخدمة في النظام."
+      },
+      "guidance": {
+        "en": "Confirm the regulatory markets (SFDA, EU MDR, FDA) and that the QMS reflects their requirements.",
+        "ar": "تحقق من الأسواق التنظيمية (هيئة الغذاء والدواء والاتحاد الأوروبي وFDA) ومن أن النظام يعكس متطلباتها."
+      },
+      "evidence": {
+        "en": [
+          "Regulatory role statement",
+          "QMS software validation records",
+          "Outsourced process controls"
+        ],
+        "ar": [
+          "بيان الدور التنظيمي",
+          "سجلات تصديق برمجيات النظام",
+          "ضوابط العمليات المسندة"
+        ]
+      },
+      "stages": [
+        "stage1",
+        "stage2",
+        "surveillance",
+        "recertification",
+        "special"
+      ],
+      "sampling": null,
+      "mandatory": true,
+      "common": false,
+      "key": null
+    },
+    {
+      "code": "MDQMS-02",
+      "clause": "4.2.1-4.2.2",
+      "title": {
+        "en": "Documentation and quality manual",
+        "ar": "التوثيق ودليل الجودة"
+      },
+      "requirement": {
+        "en": "QMS documentation includes the policy, objectives, a quality manual describing scope, exclusions and process interactions, and the procedures and records the standard and regulations require.",
+        "ar": "يشمل توثيق النظام السياسة والأهداف ودليل جودة يصف النطاق والاستثناءات وتفاعل العمليات، والإجراءات والسجلات التي يطلبها المعيار والأنظمة."
+      },
+      "guidance": {
+        "en": "Check exclusions of design or other clauses are allowed by the applicable regulations.",
+        "ar": "تحقق من أن استثناء التصميم أو غيره مسموح به في الأنظمة المنطبقة."
+      },
+      "evidence": {
+        "en": [
+          "Quality manual",
+          "List of documented procedures"
+        ],
+        "ar": [
+          "دليل الجودة",
+          "قائمة الإجراءات الموثقة"
+        ]
+      },
+      "stages": [
+        "stage1",
+        "stage2",
+        "surveillance",
+        "recertification",
+        "special"
+      ],
+      "sampling": null,
+      "mandatory": true,
+      "common": false,
+      "key": null
+    },
+    {
+      "code": "MDQMS-03",
+      "clause": "4.2.3",
+      "title": {
+        "en": "Medical device file",
+        "ar": "ملف الجهاز الطبي"
+      },
+      "requirement": {
+        "en": "For each device type or family a file holds or references the description, intended use, labelling, specifications, manufacturing, installation and servicing procedures.",
+        "ar": "يحتوي ملف لكل نوع أو عائلة أجهزة أو يشير إلى الوصف والاستخدام المقصود والوسم والمواصفات وإجراءات التصنيع والتركيب والصيانة."
+      },
+      "guidance": {
+        "en": "Sample one device family and check the file is complete.",
+        "ar": "اختر عائلة أجهزة واحدة وتحقق من اكتمال ملفها."
+      },
+      "evidence": {
+        "en": [
+          "Medical device file or technical documentation"
+        ],
+        "ar": [
+          "ملف الجهاز الطبي أو الوثائق الفنية"
+        ]
+      },
+      "stages": [
+        "stage1",
+        "stage2",
+        "surveillance",
+        "recertification",
+        "special"
+      ],
+      "sampling": null,
+      "mandatory": true,
+      "common": false,
+      "key": null
+    },
+    {
+      "code": "MDQMS-04",
+      "clause": "4.2.4-4.2.5",
+      "title": {
+        "en": "Control of documents and records",
+        "ar": "ضبط الوثائق والسجلات"
+      },
+      "requirement": {
+        "en": "Documents are reviewed and approved before issue, changes are controlled, obsolete versions are prevented from use, and records are kept at least for the device lifetime or as regulations require, with confidential health information protected.",
+        "ar": "تُراجع الوثائق وتُعتمد قبل إصدارها، وتُضبط التغييرات، ويُمنع استخدام الإصدارات الملغاة، وتُحفظ السجلات طوال عمر الجهاز على الأقل أو وفق ما تتطلبه الأنظمة، مع حماية المعلومات الصحية السرية."
+      },
+      "guidance": {
+        "en": "Check retention periods against device lifetime.",
+        "ar": "قارن فترات الحفظ بعمر الجهاز."
+      },
+      "evidence": {
+        "en": [
+          "Document change records",
+          "Record retention schedule"
+        ],
+        "ar": [
+          "سجلات تغيير الوثائق",
+          "جدول حفظ السجلات"
+        ]
+      },
+      "stages": [
+        "stage1",
+        "stage2",
+        "surveillance",
+        "recertification",
+        "special"
+      ],
+      "sampling": null,
+      "mandatory": true,
+      "common": false,
+      "key": null
+    },
+    {
+      "code": "MDQMS-05",
+      "clause": "5.1-5.3",
+      "title": {
+        "en": "Management commitment, customer focus and quality policy",
+        "ar": "التزام الإدارة والتركيز على العميل وسياسة الجودة"
+      },
+      "requirement": {
+        "en": "Top management commits to the QMS and its effectiveness, makes sure customer and regulatory requirements are met, and sets a policy that includes complying with requirements and maintaining effectiveness.",
+        "ar": "تلتزم الإدارة العليا بالنظام وفاعليته، وتحرص على تلبية متطلبات العملاء والمتطلبات التنظيمية، وتضع سياسة تتضمن الامتثال للمتطلبات والمحافظة على الفاعلية."
+      },
+      "guidance": {
+        "en": "Interview top management about regulatory commitments.",
+        "ar": "قابل الإدارة العليا بشأن الالتزامات التنظيمية."
+      },
+      "evidence": {
+        "en": [
+          "Quality policy",
+          "Management interview"
+        ],
+        "ar": [
+          "سياسة الجودة",
+          "مقابلة الإدارة"
+        ]
+      },
+      "stages": [
+        "stage1",
+        "stage2",
+        "surveillance",
+        "recertification",
+        "special"
+      ],
+      "sampling": null,
+      "mandatory": true,
+      "common": false,
+      "key": null
+    },
+    {
+      "code": "MDQMS-06",
+      "clause": "5.4",
+      "title": {
+        "en": "Planning: quality objectives and QMS planning",
+        "ar": "التخطيط: أهداف الجودة وتخطيط النظام"
+      },
+      "requirement": {
+        "en": "Measurable quality objectives, including those needed for regulatory and product requirements, are set, and QMS planning keeps the system intact during change.",
+        "ar": "وُضعت أهداف جودة قابلة للقياس تشمل ما يلزم للمتطلبات التنظيمية ومتطلبات المنتج، ويحافظ تخطيط النظام على سلامته أثناء التغيير."
+      },
+      "guidance": {
+        "en": "Compare objectives with results.",
+        "ar": "قارن الأهداف بالنتائج."
+      },
+      "evidence": {
+        "en": [
+          "Quality objectives and results"
+        ],
+        "ar": [
+          "أهداف الجودة ونتائجها"
+        ]
+      },
+      "stages": [
+        "stage1",
+        "stage2",
+        "surveillance",
+        "recertification",
+        "special"
+      ],
+      "sampling": null,
+      "mandatory": true,
+      "common": false,
+      "key": null
+    },
+    {
+      "code": "MDQMS-07",
+      "clause": "5.5",
+      "title": {
+        "en": "Responsibility, authority and communication",
+        "ar": "المسؤولية والصلاحية والاتصال"
+      },
+      "requirement": {
+        "en": "Responsibilities, authorities and interrelations are documented, a management representative is appointed, and internal communication on QMS effectiveness takes place.",
+        "ar": "وُثقت المسؤوليات والصلاحيات والعلاقات، وعُيّن ممثل للإدارة، ويجري اتصال داخلي بشأن فاعلية النظام."
+      },
+      "guidance": {
+        "en": "Check independence of people verifying work.",
+        "ar": "تحقق من استقلالية الأشخاص الذين يتحققون من العمل."
+      },
+      "evidence": {
+        "en": [
+          "Organization chart",
+          "Management representative appointment"
+        ],
+        "ar": [
+          "الهيكل التنظيمي",
+          "تعيين ممثل الإدارة"
+        ]
+      },
+      "stages": [
+        "stage1",
+        "stage2",
+        "surveillance",
+        "recertification",
+        "special"
+      ],
+      "sampling": null,
+      "mandatory": true,
+      "common": false,
+      "key": null
+    },
+    {
+      "code": "MDQMS-08",
+      "clause": "5.6",
+      "title": {
+        "en": "Management review",
+        "ar": "مراجعة الإدارة"
+      },
+      "requirement": {
+        "en": "Top management reviews the QMS at documented intervals with inputs such as feedback, complaints, regulatory reporting, audits, process and product monitoring, CAPA and new regulations, and records outputs.",
+        "ar": "تراجع الإدارة العليا النظام على فترات موثقة بمدخلات منها الآراء والشكاوى والإبلاغ التنظيمي والتدقيق ورصد العمليات والمنتج والإجراءات التصحيحية والوقائية والأنظمة الجديدة، وتسجل المخرجات."
+      },
+      "guidance": {
+        "en": "Compare minutes with the input list.",
+        "ar": "قارن المحضر بقائمة المدخلات."
+      },
+      "evidence": {
+        "en": [
+          "Management review minutes"
+        ],
+        "ar": [
+          "محضر مراجعة الإدارة"
+        ]
+      },
+      "stages": [
+        "stage1",
+        "stage2",
+        "surveillance",
+        "recertification",
+        "special"
+      ],
+      "sampling": null,
+      "mandatory": true,
+      "common": false,
+      "key": null
+    },
+    {
+      "code": "MDQMS-09",
+      "clause": "6.1-6.2",
+      "title": {
+        "en": "Resources and human resources",
+        "ar": "الموارد والموارد البشرية"
+      },
+      "requirement": {
+        "en": "Resources are provided, competence is defined, training is given and its effectiveness is checked in proportion to the risk of the work.",
+        "ar": "تُوفر الموارد، وتُحدد الكفاءة، ويُقدم التدريب ويُتحقق من فاعليته بما يتناسب مع مخاطر العمل."
+      },
+      "guidance": {
+        "en": "Sample people in production and quality control.",
+        "ar": "اختر عينة من العاملين في الإنتاج وضبط الجودة."
+      },
+      "evidence": {
+        "en": [
+          "Competence matrix",
+          "Training effectiveness records"
+        ],
+        "ar": [
+          "مصفوفة الكفاءة",
+          "سجلات فاعلية التدريب"
+        ]
+      },
+      "stages": [
+        "stage2",
+        "surveillance",
+        "recertification",
+        "special"
+      ],
+      "sampling": null,
+      "mandatory": true,
+      "common": false,
+      "key": null
+    },
+    {
+      "code": "MDQMS-10",
+      "clause": "6.3-6.4",
+      "title": {
+        "en": "Infrastructure, work environment and contamination control",
+        "ar": "البنية التحتية وبيئة العمل وضبط التلوث"
+      },
+      "requirement": {
+        "en": "Infrastructure is maintained to documented requirements, work environment and health and cleanliness of personnel are controlled where they can affect the product, and contamination is controlled, including for sterile devices.",
+        "ar": "تُصان البنية التحتية وفق متطلبات موثقة، وتُضبط بيئة العمل وصحة الأفراد ونظافتهم عندما تؤثر في المنتج، ويُضبط التلوث بما في ذلك للأجهزة المعقمة."
+      },
+      "guidance": {
+        "en": "Visit clean rooms and check environmental monitoring.",
+        "ar": "زر الغرف النظيفة وتحقق من الرصد البيئي."
+      },
+      "evidence": {
+        "en": [
+          "Maintenance records",
+          "Clean room monitoring results"
+        ],
+        "ar": [
+          "سجلات الصيانة",
+          "نتائج رصد الغرف النظيفة"
+        ]
+      },
+      "stages": [
+        "stage2",
+        "surveillance",
+        "recertification",
+        "special"
+      ],
+      "sampling": null,
+      "mandatory": true,
+      "common": false,
+      "key": null
+    },
+    {
+      "code": "MDQMS-11",
+      "clause": "7.1",
+      "title": {
+        "en": "Planning of product realization and risk management",
+        "ar": "تخطيط تحقيق المنتج وإدارة المخاطر"
+      },
+      "requirement": {
+        "en": "Product realization is planned and risk management is documented and applied throughout the realization process.",
+        "ar": "يُخطط تحقيق المنتج، وتُوثق إدارة المخاطر وتُطبق طوال عملية التحقيق."
+      },
+      "guidance": {
+        "en": "Check the risk management file follows the device life cycle (ISO 14971 is commonly used).",
+        "ar": "تحقق من أن ملف إدارة المخاطر يواكب دورة حياة الجهاز (يُستخدم ISO 14971 عادة)."
+      },
+      "evidence": {
+        "en": [
+          "Risk management file",
+          "Realization plan"
+        ],
+        "ar": [
+          "ملف إدارة المخاطر",
+          "خطة تحقيق المنتج"
+        ]
+      },
+      "stages": [
+        "stage1",
+        "stage2",
+        "surveillance",
+        "recertification",
+        "special"
+      ],
+      "sampling": null,
+      "mandatory": true,
+      "common": false,
+      "key": null
+    },
+    {
+      "code": "MDQMS-12",
+      "clause": "7.2",
+      "title": {
+        "en": "Customer-related processes",
+        "ar": "العمليات المتعلقة بالعملاء"
+      },
+      "requirement": {
+        "en": "Product requirements, including regulatory requirements and user training needs, are determined and reviewed before commitment, and communication with customers and regulators is arranged.",
+        "ar": "تُحدد متطلبات المنتج، بما فيها المتطلبات التنظيمية واحتياجات تدريب المستخدمين، وتُراجع قبل الالتزام، وتُرتب الاتصالات مع العملاء والجهات التنظيمية."
+      },
+      "guidance": {
+        "en": "Sample orders and tender responses.",
+        "ar": "اختر عينة من الطلبات والردود على المناقصات."
+      },
+      "evidence": {
+        "en": [
+          "Order review records",
+          "Regulatory communication records"
+        ],
+        "ar": [
+          "سجلات مراجعة الطلبات",
+          "سجلات الاتصال التنظيمي"
+        ]
+      },
+      "stages": [
+        "stage2",
+        "surveillance",
+        "recertification",
+        "special"
+      ],
+      "sampling": null,
+      "mandatory": true,
+      "common": false,
+      "key": null
+    },
+    {
+      "code": "MDQMS-13",
+      "clause": "7.3",
+      "title": {
+        "en": "Design and development",
+        "ar": "التصميم والتطوير"
+      },
+      "requirement": {
+        "en": "Design is planned with inputs, outputs, reviews, verification, validation (including clinical or performance evaluation), transfer to manufacturing, change control and design history files.",
+        "ar": "يُخطط التصميم بمدخلات ومخرجات ومراجعات وتحقق وتصديق (بما في ذلك التقييم السريري أو تقييم الأداء) ونقل إلى التصنيع وضبط التغيير وملفات سجل التصميم."
+      },
+      "guidance": {
+        "en": "Pick one recent design change and test the full control.",
+        "ar": "اختر تغيير تصميم حديثاً واختبر ضوابطه كاملة."
+      },
+      "evidence": {
+        "en": [
+          "Design and development file",
+          "Verification and validation reports",
+          "Design transfer records"
+        ],
+        "ar": [
+          "ملف التصميم والتطوير",
+          "تقارير التحقق والتصديق",
+          "سجلات نقل التصميم"
+        ]
+      },
+      "stages": [
+        "stage2",
+        "surveillance",
+        "recertification",
+        "special"
+      ],
+      "sampling": null,
+      "mandatory": true,
+      "common": false,
+      "key": null
+    },
+    {
+      "code": "MDQMS-14",
+      "clause": "7.4",
+      "title": {
+        "en": "Purchasing",
+        "ar": "الشراء"
+      },
+      "requirement": {
+        "en": "Suppliers are evaluated and monitored in proportion to risk, purchasing information is complete, and purchased product is verified.",
+        "ar": "يُقيَّم الموردون ويُراقبون بما يتناسب مع المخاطر، وتكون معلومات الشراء كاملة، ويُتحقق من المنتج المشترى."
+      },
+      "guidance": {
+        "en": "Check quality agreements with critical suppliers.",
+        "ar": "تحقق من اتفاقيات الجودة مع الموردين الحرجين."
+      },
+      "evidence": {
+        "en": [
+          "Approved supplier list",
+          "Quality agreements",
+          "Incoming inspection records"
+        ],
+        "ar": [
+          "قائمة الموردين المعتمدين",
+          "اتفاقيات الجودة",
+          "سجلات الفحص عند الاستلام"
+        ]
+      },
+      "stages": [
+        "stage2",
+        "surveillance",
+        "recertification",
+        "special"
+      ],
+      "sampling": null,
+      "mandatory": true,
+      "common": false,
+      "key": null
+    },
+    {
+      "code": "MDQMS-15",
+      "clause": "7.5",
+      "title": {
+        "en": "Production and service provision",
+        "ar": "الإنتاج وتقديم الخدمة"
+      },
+      "requirement": {
+        "en": "Production is controlled, cleanliness, installation and servicing are managed, special processes and sterilization are validated, and identification, traceability (including implantables), customer property and preservation are controlled.",
+        "ar": "يُضبط الإنتاج، وتُدار النظافة والتركيب والصيانة، ويُصدّق على العمليات الخاصة والتعقيم، وتُضبط عمليات التعريف والتتبع (بما فيها الأجهزة المزروعة) وممتلكات العميل والحفظ."
+      },
+      "guidance": {
+        "en": "Review a device history record and the sterilization validation.",
+        "ar": "راجع سجل تاريخ جهاز وتصديق التعقيم."
+      },
+      "evidence": {
+        "en": [
+          "Device history records",
+          "Process validation reports",
+          "Traceability records"
+        ],
+        "ar": [
+          "سجلات تاريخ الأجهزة",
+          "تقارير تصديق العمليات",
+          "سجلات التتبع"
+        ]
+      },
+      "stages": [
+        "stage2",
+        "surveillance",
+        "recertification",
+        "special"
+      ],
+      "sampling": {
+        "en": "Cover each validated special process over the cycle.",
+        "ar": "غطّ كل عملية خاصة مصدّقة خلال الدورة."
+      },
+      "mandatory": true,
+      "common": false,
+      "key": null
+    },
+    {
+      "code": "MDQMS-16",
+      "clause": "7.6",
+      "title": {
+        "en": "Control of monitoring and measuring equipment",
+        "ar": "ضبط معدات الرصد والقياس"
+      },
+      "requirement": {
+        "en": "Equipment is calibrated or verified, adjusted, protected, and the effect of out-of-calibration findings is assessed; software used for measurement is validated.",
+        "ar": "تُعاير المعدات أو يُتحقق منها وتُضبط وتُحمى، ويُقيَّم أثر نتائج الخروج عن المعايرة، ويُصدّق على البرمجيات المستخدمة في القياس."
+      },
+      "guidance": {
+        "en": "Sample instruments used for final release.",
+        "ar": "اختر عينة من الأجهزة المستخدمة في الإفراج النهائي."
+      },
+      "evidence": {
+        "en": [
+          "Calibration records"
+        ],
+        "ar": [
+          "سجلات المعايرة"
+        ]
+      },
+      "stages": [
+        "stage2",
+        "surveillance",
+        "recertification",
+        "special"
+      ],
+      "sampling": null,
+      "mandatory": true,
+      "common": false,
+      "key": null
+    },
+    {
+      "code": "MDQMS-17",
+      "clause": "8.2.1-8.2.3",
+      "title": {
+        "en": "Feedback, complaint handling and regulatory reporting",
+        "ar": "الآراء ومعالجة الشكاوى والإبلاغ التنظيمي"
+      },
+      "requirement": {
+        "en": "Feedback is gathered as input to risk management, complaints are handled in a timely way with investigation, and reportable events are notified to regulatory authorities.",
+        "ar": "تُجمع الآراء بوصفها مدخلاً لإدارة المخاطر، وتُعالج الشكاوى في الوقت المناسب مع التحقيق فيها، ويُبلغ عن الأحداث الواجب الإبلاغ عنها للجهات التنظيمية."
+      },
+      "guidance": {
+        "en": "Sample complaints and check the reportability decision.",
+        "ar": "اختر عينة من الشكاوى وتحقق من قرار وجوب الإبلاغ."
+      },
+      "evidence": {
+        "en": [
+          "Complaint files",
+          "Vigilance or adverse event reports"
+        ],
+        "ar": [
+          "ملفات الشكاوى",
+          "تقارير اليقظة أو الأحداث الضارة"
+        ]
+      },
+      "stages": [
+        "stage2",
+        "surveillance",
+        "recertification",
+        "special"
+      ],
+      "sampling": null,
+      "mandatory": true,
+      "common": false,
+      "key": null
+    },
+    {
+      "code": "MDQMS-18",
+      "clause": "8.2.4",
+      "title": {
+        "en": "Internal audit",
+        "ar": "التدقيق الداخلي"
+      },
+      "requirement": {
+        "en": "Internal audits are planned and conducted at intervals to a documented procedure by independent auditors, and corrections and corrective actions follow without undue delay.",
+        "ar": "يُخطط للتدقيق الداخلي ويُنفذ على فترات وفق إجراء موثق بواسطة مدققين مستقلين، وتتبعه التصحيحات والإجراءات التصحيحية دون تأخير غير مبرر."
+      },
+      "guidance": {
+        "en": "Check the full QMS was covered before Stage 2.",
+        "ar": "تحقق من تغطية النظام كاملاً قبل المرحلة الثانية."
+      },
+      "evidence": {
+        "en": [
+          "Internal audit programme and reports"
+        ],
+        "ar": [
+          "برنامج التدقيق الداخلي وتقاريره"
+        ]
+      },
+      "stages": [
+        "stage1",
+        "stage2",
+        "surveillance",
+        "recertification",
+        "special"
+      ],
+      "sampling": null,
+      "mandatory": true,
+      "common": false,
+      "key": null
+    },
+    {
+      "code": "MDQMS-19",
+      "clause": "8.2.5-8.2.6",
+      "title": {
+        "en": "Monitoring and measurement of processes and product",
+        "ar": "رصد العمليات والمنتج وقياسها"
+      },
+      "requirement": {
+        "en": "Processes are monitored to show they achieve planned results, and product is checked at planned stages with the releasing person recorded.",
+        "ar": "تُرصد العمليات لإثبات تحقيقها النتائج المخططة، ويُفحص المنتج في مراحل مخططة مع تسجيل الشخص المفرج."
+      },
+      "guidance": {
+        "en": "Check release records.",
+        "ar": "افحص سجلات الإفراج."
+      },
+      "evidence": {
+        "en": [
+          "Inspection records",
+          "Release records"
+        ],
+        "ar": [
+          "سجلات الفحص",
+          "سجلات الإفراج"
+        ]
+      },
+      "stages": [
+        "stage2",
+        "surveillance",
+        "recertification",
+        "special"
+      ],
+      "sampling": null,
+      "mandatory": true,
+      "common": false,
+      "key": null
+    },
+    {
+      "code": "MDQMS-20",
+      "clause": "8.3",
+      "title": {
+        "en": "Control of nonconforming product",
+        "ar": "ضبط المنتج غير المطابق"
+      },
+      "requirement": {
+        "en": "Nonconforming product is identified, segregated, evaluated, investigated where needed and dispositioned, including action after delivery (advisory notices) and rework under instructions.",
+        "ar": "يُعرف المنتج غير المطابق ويُعزل ويُقيَّم ويُحقق فيه عند الحاجة ويُتصرف فيه، بما في ذلك الإجراءات بعد التسليم (الإشعارات التحذيرية) وإعادة التشغيل وفق تعليمات."
+      },
+      "guidance": {
+        "en": "Check advisory notices issued, if any.",
+        "ar": "افحص الإشعارات التحذيرية الصادرة إن وُجدت."
+      },
+      "evidence": {
+        "en": [
+          "Nonconforming product records",
+          "Advisory notices"
+        ],
+        "ar": [
+          "سجلات المنتج غير المطابق",
+          "الإشعارات التحذيرية"
+        ]
+      },
+      "stages": [
+        "stage2",
+        "surveillance",
+        "recertification",
+        "special"
+      ],
+      "sampling": null,
+      "mandatory": true,
+      "common": false,
+      "key": null
+    },
+    {
+      "code": "MDQMS-21",
+      "clause": "8.4",
+      "title": {
+        "en": "Analysis of data",
+        "ar": "تحليل البيانات"
+      },
+      "requirement": {
+        "en": "Data from feedback, product conformity, process trends, suppliers, audits and service reports is analysed with appropriate statistical techniques.",
+        "ar": "تُحلل البيانات الواردة من الآراء ومطابقة المنتج واتجاهات العمليات والموردين والتدقيق وتقارير الخدمة بأساليب إحصائية ملائمة."
+      },
+      "guidance": {
+        "en": "Check trends feed CAPA.",
+        "ar": "تحقق من أن الاتجاهات تغذي الإجراءات التصحيحية والوقائية."
+      },
+      "evidence": {
+        "en": [
+          "Data analysis reports"
+        ],
+        "ar": [
+          "تقارير تحليل البيانات"
+        ]
+      },
+      "stages": [
+        "stage2",
+        "surveillance",
+        "recertification",
+        "special"
+      ],
+      "sampling": null,
+      "mandatory": true,
+      "common": false,
+      "key": null
+    },
+    {
+      "code": "MDQMS-22",
+      "clause": "8.5",
+      "title": {
+        "en": "Improvement: corrective and preventive action",
+        "ar": "التحسين: الإجراءات التصحيحية والوقائية"
+      },
+      "requirement": {
+        "en": "Corrective and preventive actions are taken without undue delay, proportionate to risk, with root cause investigation, verification that they do not harm safety and performance, and effectiveness review.",
+        "ar": "تُتخذ الإجراءات التصحيحية والوقائية دون تأخير غير مبرر وبما يتناسب مع المخاطر، مع التحقيق في السبب الجذري والتحقق من عدم إضرارها بالسلامة والأداء ومراجعة الفاعلية."
+      },
+      "guidance": {
+        "en": "Sample CAPAs linked to complaints.",
+        "ar": "اختر عينة من الإجراءات المرتبطة بالشكاوى."
+      },
+      "evidence": {
+        "en": [
+          "CAPA records",
+          "Effectiveness checks"
+        ],
+        "ar": [
+          "سجلات الإجراءات التصحيحية والوقائية",
+          "فحوص الفاعلية"
+        ]
+      },
+      "stages": [
+        "stage2",
+        "surveillance",
+        "recertification",
+        "special"
+      ],
+      "sampling": null,
+      "mandatory": true,
+      "common": false,
+      "key": null
+    }
+  ]
+}

@@ -1,0 +1,894 @@
+{
+  "key": "iso-41001",
+  "standardCode": "ISO_41001",
+  "kind": "STANDARD",
+  "standard": "ISO 41001:2018",
+  "name": {
+    "en": "ISO 41001 Facility management system",
+    "ar": "ISO 41001 نظام إدارة المرافق"
+  },
+  "version": "2026.10",
+  "status": "approved",
+  "approvedBy": "Product owner",
+  "approvedOn": "2026-10-25",
+  "reviewNote": {
+    "en": "Approved by the product owner on 25 October 2026. Requirement summaries are written in our own words with the clause number; they are not the text of the standard. Check clause numbers against the edition in your accreditation scope.",
+    "ar": "اعتمدها مالك المنتج في 25 أكتوبر 2026. ملخصات المتطلبات مكتوبة بصياغتنا مع رقم البند وليست نص المعيار. تحقق من أرقام البنود مقابل الإصدار المشمول في نطاق اعتمادك."
+  },
+  "items": [
+    {
+      "code": "FM-01",
+      "clause": "4.1",
+      "title": {
+        "en": "Understanding the organization and its context",
+        "ar": "فهم المنظمة وسياقها"
+      },
+      "requirement": {
+        "en": "The organization has worked out the internal and external issues that bear on its purpose and on the results it expects from its facility management system, and keeps that picture up to date.",
+        "ar": "حددت المنظمة القضايا الداخلية والخارجية المؤثرة في غرضها وفي النتائج المتوقعة من نظام إدارة المرافق، وتحدّث هذه الصورة باستمرار."
+      },
+      "guidance": {
+        "en": "Ask how the issues were identified (strategy meetings, SWOT, PESTLE) and how they feed risk planning. Since the 2024 amendment, check that climate change was considered as a possible relevant issue.",
+        "ar": "اسأل عن طريقة تحديد القضايا (اجتماعات الاستراتيجية أو تحليل SWOT أو PESTLE) وكيف تغذي تخطيط المخاطر. ومنذ تعديل 2024 تحقق من دراسة تغير المناخ بوصفه قضية محتملة ذات صلة."
+      },
+      "evidence": {
+        "en": [
+          "Context or strategy analysis record",
+          "Minutes showing the issues are reviewed periodically",
+          "Conclusion on climate change relevance"
+        ],
+        "ar": [
+          "سجل تحليل السياق أو الاستراتيجية",
+          "محاضر تثبت مراجعة القضايا دورياً",
+          "خلاصة بشأن صلة تغير المناخ"
+        ]
+      },
+      "stages": [
+        "stage1",
+        "stage2",
+        "surveillance",
+        "recertification",
+        "special"
+      ],
+      "sampling": null,
+      "mandatory": true,
+      "common": true,
+      "key": "hs-4.1"
+    },
+    {
+      "code": "FM-02",
+      "clause": "4.2",
+      "title": {
+        "en": "Needs and expectations of interested parties",
+        "ar": "احتياجات الأطراف المعنية وتوقعاتها"
+      },
+      "requirement": {
+        "en": "Relevant interested parties and their relevant requirements are known, including which of them the organization has decided to treat as obligations of the facility management system.",
+        "ar": "الأطراف المعنية ذات الصلة ومتطلباتها معروفة، بما في ذلك ما قررت المنظمة معاملته التزاماً ضمن نظام إدارة المرافق."
+      },
+      "guidance": {
+        "en": "Pick two or three parties (customers, regulators, neighbours, workers) and trace their requirements into planning and operations.",
+        "ar": "اختر طرفين أو ثلاثة (العملاء والجهات التنظيمية والجيران والعاملين) وتتبع متطلباتهم حتى التخطيط والعمليات."
+      },
+      "evidence": {
+        "en": [
+          "Register of interested parties and their requirements",
+          "Link from requirements to objectives or controls"
+        ],
+        "ar": [
+          "سجل الأطراف المعنية ومتطلباتها",
+          "ربط المتطلبات بالأهداف أو الضوابط"
+        ]
+      },
+      "stages": [
+        "stage1",
+        "stage2",
+        "surveillance",
+        "recertification",
+        "special"
+      ],
+      "sampling": null,
+      "mandatory": true,
+      "common": true,
+      "key": "hs-4.2"
+    },
+    {
+      "code": "FM-03",
+      "clause": "4.3",
+      "title": {
+        "en": "Scope of the management system",
+        "ar": "نطاق نظام الإدارة"
+      },
+      "requirement": {
+        "en": "The boundaries and applicability of the facility management system are set, kept as documented information and match the scope requested for certification; any requirement treated as not applicable is justified.",
+        "ar": "حُددت حدود نظام إدارة المرافق ومدى انطباقه ووُثقت، وهي متوافقة مع النطاق المطلوب للشهادة، وأي متطلب غير منطبق مبرر."
+      },
+      "guidance": {
+        "en": "Compare the documented scope with the application, the sites visited and the activities seen. Unjustified exclusions are a finding.",
+        "ar": "قارن النطاق الموثق بطلب الشهادة والمواقع التي زرتها والأنشطة التي شاهدتها. الاستثناءات غير المبررة تُعد ملاحظة تدقيق."
+      },
+      "evidence": {
+        "en": [
+          "Documented scope statement",
+          "Justification of exclusions",
+          "List of sites and activities covered"
+        ],
+        "ar": [
+          "بيان النطاق الموثق",
+          "مبررات الاستثناءات",
+          "قائمة المواقع والأنشطة المشمولة"
+        ]
+      },
+      "stages": [
+        "stage1",
+        "stage2",
+        "surveillance",
+        "recertification",
+        "special"
+      ],
+      "sampling": {
+        "en": "Confirm at every audit that the scope on the certificate is still accurate.",
+        "ar": "تحقق في كل تدقيق من أن النطاق المدون في الشهادة ما زال دقيقاً."
+      },
+      "mandatory": true,
+      "common": true,
+      "key": "hs-4.3"
+    },
+    {
+      "code": "FM-04",
+      "clause": "4.4",
+      "title": {
+        "en": "Management system and its processes",
+        "ar": "نظام الإدارة وعملياته"
+      },
+      "requirement": {
+        "en": "The facility management system is in place and kept working, with the processes it needs, their sequence and interactions, inputs, outputs, owners and criteria defined.",
+        "ar": "يعمل نظام إدارة المرافق ويُحافظ عليه، مع تحديد العمليات اللازمة وتسلسلها وتفاعلاتها ومدخلاتها ومخرجاتها ومالكيها ومعاييرها."
+      },
+      "guidance": {
+        "en": "Look for a process map or equivalent and test that process owners know their criteria and measures.",
+        "ar": "ابحث عن خريطة عمليات أو ما يعادلها، وتحقق من معرفة مالكي العمليات بمعاييرهم ومقاييسهم."
+      },
+      "evidence": {
+        "en": [
+          "Process map or interaction diagram",
+          "Process descriptions with owners and measures"
+        ],
+        "ar": [
+          "خريطة العمليات أو مخطط التفاعل",
+          "أوصاف العمليات مع المالكين والمقاييس"
+        ]
+      },
+      "stages": [
+        "stage1",
+        "stage2",
+        "surveillance",
+        "recertification",
+        "special"
+      ],
+      "sampling": null,
+      "mandatory": true,
+      "common": true,
+      "key": "hs-4.4"
+    },
+    {
+      "code": "FM-05",
+      "clause": "5.1",
+      "title": {
+        "en": "Leadership and commitment",
+        "ar": "القيادة والالتزام"
+      },
+      "requirement": {
+        "en": "Top management takes ownership of the effectiveness of the facility management system: policy and objectives fit the strategy, requirements are built into business processes, resources are provided and people are supported.",
+        "ar": "تتحمل الإدارة العليا مسؤولية فاعلية نظام إدارة المرافق: السياسة والأهداف منسجمة مع الاستراتيجية، والمتطلبات مدمجة في عمليات العمل، والموارد متوفرة، والأفراد يحظون بالدعم."
+      },
+      "guidance": {
+        "en": "Interview top management. Ask for concrete decisions they took about the system in the last period, not general statements.",
+        "ar": "قابل الإدارة العليا واطلب أمثلة على قرارات فعلية اتخذتها بشأن النظام في الفترة الأخيرة، لا عبارات عامة."
+      },
+      "evidence": {
+        "en": [
+          "Interview with top management",
+          "Resource decisions or budget records",
+          "Examples of management communication"
+        ],
+        "ar": [
+          "مقابلة الإدارة العليا",
+          "قرارات الموارد أو سجلات الميزانية",
+          "أمثلة على اتصالات الإدارة"
+        ]
+      },
+      "stages": [
+        "stage1",
+        "stage2",
+        "surveillance",
+        "recertification",
+        "special"
+      ],
+      "sampling": null,
+      "mandatory": true,
+      "common": true,
+      "key": "hs-5.1"
+    },
+    {
+      "code": "FM-06",
+      "clause": "5.2",
+      "title": {
+        "en": "Policy",
+        "ar": "السياسة"
+      },
+      "requirement": {
+        "en": "A policy suited to the organization is approved, commits to meeting applicable requirements and to continual improvement, gives a frame for objectives, and is communicated and available.",
+        "ar": "اعتُمدت سياسة ملائمة للمنظمة تلتزم بتلبية المتطلبات المنطبقة وبالتحسين المستمر، وتشكل إطاراً للأهداف، ويجري تعميمها وإتاحتها."
+      },
+      "guidance": {
+        "en": "Check the policy content against the commitments the standard expects, and ask staff where they find it and what it means for their work.",
+        "ar": "تحقق من تضمن السياسة الالتزامات التي يتوقعها المعيار، واسأل العاملين أين يجدونها وما معناها في عملهم."
+      },
+      "evidence": {
+        "en": [
+          "Approved policy (version and date)",
+          "Evidence of communication (intranet, notice boards, induction)"
+        ],
+        "ar": [
+          "السياسة المعتمدة (الإصدار والتاريخ)",
+          "دليل التعميم (الشبكة الداخلية، لوحات الإعلانات، التهيئة)"
+        ]
+      },
+      "stages": [
+        "stage1",
+        "stage2",
+        "surveillance",
+        "recertification",
+        "special"
+      ],
+      "sampling": null,
+      "mandatory": true,
+      "common": true,
+      "key": "hs-5.2"
+    },
+    {
+      "code": "FM-07",
+      "clause": "5.3",
+      "title": {
+        "en": "Roles, responsibilities and authorities",
+        "ar": "الأدوار والمسؤوليات والصلاحيات"
+      },
+      "requirement": {
+        "en": "Responsibilities and authorities for relevant roles are assigned and understood, including who makes sure the facility management system conforms and who reports on its performance.",
+        "ar": "أُسندت مسؤوليات وصلاحيات الأدوار ذات الصلة وهي مفهومة، بما في ذلك المسؤول عن مطابقة نظام إدارة المرافق ومن يرفع التقارير عن أدائه."
+      },
+      "guidance": {
+        "en": "Compare organization chart and job descriptions with what people say they do.",
+        "ar": "قارن الهيكل التنظيمي والأوصاف الوظيفية بما يقوله الأفراد عن مهامهم."
+      },
+      "evidence": {
+        "en": [
+          "Organization chart",
+          "Job descriptions or responsibility matrix",
+          "Appointment of the system representative"
+        ],
+        "ar": [
+          "الهيكل التنظيمي",
+          "الأوصاف الوظيفية أو مصفوفة المسؤوليات",
+          "تكليف ممثل النظام"
+        ]
+      },
+      "stages": [
+        "stage1",
+        "stage2",
+        "surveillance",
+        "recertification",
+        "special"
+      ],
+      "sampling": null,
+      "mandatory": true,
+      "common": true,
+      "key": "hs-5.3"
+    },
+    {
+      "code": "FM-08",
+      "clause": "6.1",
+      "title": {
+        "en": "Actions to address risks and opportunities",
+        "ar": "إجراءات معالجة المخاطر والفرص"
+      },
+      "requirement": {
+        "en": "Risks and opportunities that could affect the intended results are identified, actions are planned and built into processes, and their effectiveness is checked.",
+        "ar": "حُددت المخاطر والفرص المؤثرة في النتائج المرجوة، وخُططت الإجراءات ودُمجت في العمليات، ويجري التحقق من فاعليتها."
+      },
+      "guidance": {
+        "en": "Select a high risk and follow it to the action taken and to how effectiveness was judged.",
+        "ar": "اختر خطراً مرتفعاً وتتبعه حتى الإجراء المتخذ وطريقة تقييم فاعليته."
+      },
+      "evidence": {
+        "en": [
+          "Risk and opportunity register",
+          "Action plans with owners and dates",
+          "Review of action effectiveness"
+        ],
+        "ar": [
+          "سجل المخاطر والفرص",
+          "خطط عمل بمسؤولين وتواريخ",
+          "مراجعة فاعلية الإجراءات"
+        ]
+      },
+      "stages": [
+        "stage1",
+        "stage2",
+        "surveillance",
+        "recertification",
+        "special"
+      ],
+      "sampling": null,
+      "mandatory": true,
+      "common": true,
+      "key": "hs-6.1"
+    },
+    {
+      "code": "FM-09",
+      "clause": "6.2",
+      "title": {
+        "en": "Objectives and planning to achieve them",
+        "ar": "الأهداف والتخطيط لتحقيقها"
+      },
+      "requirement": {
+        "en": "Measurable objectives consistent with the policy are set for relevant functions and levels, monitored and communicated, with plans stating what will be done, by whom, with what resources, by when and how results are evaluated.",
+        "ar": "وُضعت أهداف قابلة للقياس منسجمة مع السياسة للوظائف والمستويات ذات الصلة، وتُراقب وتُعمم، مع خطط تبين ما سيُنفذ ومن ينفذه والموارد والموعد وطريقة تقييم النتائج."
+      },
+      "guidance": {
+        "en": "Compare targets with actual results and ask what happens when an objective is missed.",
+        "ar": "قارن المستهدفات بالنتائج الفعلية واسأل عما يحدث عند عدم تحقيق هدف."
+      },
+      "evidence": {
+        "en": [
+          "Objectives and targets with owners",
+          "Progress reports or dashboards",
+          "Action plans for objectives off track"
+        ],
+        "ar": [
+          "الأهداف والمستهدفات ومسؤولوها",
+          "تقارير التقدم أو لوحات المؤشرات",
+          "خطط عمل للأهداف المتعثرة"
+        ]
+      },
+      "stages": [
+        "stage1",
+        "stage2",
+        "surveillance",
+        "recertification",
+        "special"
+      ],
+      "sampling": null,
+      "mandatory": true,
+      "common": true,
+      "key": "hs-6.2"
+    },
+    {
+      "code": "FM-10",
+      "clause": "7.1",
+      "title": {
+        "en": "Resources",
+        "ar": "الموارد"
+      },
+      "requirement": {
+        "en": "The resources the facility management system needs (people, infrastructure, work environment, tools) are determined and provided.",
+        "ar": "حُددت الموارد اللازمة لـنظام إدارة المرافق (الأفراد والبنية التحتية وبيئة العمل والأدوات) ووُفرت."
+      },
+      "guidance": {
+        "en": "Look for signs of under-resourcing: overdue actions, overtime, idle equipment waiting for repair.",
+        "ar": "ابحث عن مؤشرات نقص الموارد: إجراءات متأخرة أو ساعات عمل إضافية أو معدات معطلة بانتظار الإصلاح."
+      },
+      "evidence": {
+        "en": [
+          "Resource planning or budget",
+          "Infrastructure maintenance records"
+        ],
+        "ar": [
+          "تخطيط الموارد أو الميزانية",
+          "سجلات صيانة البنية التحتية"
+        ]
+      },
+      "stages": [
+        "stage2",
+        "surveillance",
+        "recertification",
+        "special"
+      ],
+      "sampling": null,
+      "mandatory": true,
+      "common": true,
+      "key": "hs-7.1"
+    },
+    {
+      "code": "FM-11",
+      "clause": "7.2",
+      "title": {
+        "en": "Competence",
+        "ar": "الكفاءة"
+      },
+      "requirement": {
+        "en": "The competence needed for work affecting performance is defined, people are competent through education, training or experience, gaps are closed and evidence is kept.",
+        "ar": "حُددت الكفاءة اللازمة للأعمال المؤثرة في الأداء، والأفراد أكفاء بالتعليم أو التدريب أو الخبرة، وتُسد الفجوات وتُحفظ الأدلة."
+      },
+      "guidance": {
+        "en": "Sample people in key roles you met during the audit and check their records against the defined competence.",
+        "ar": "اختر عينة من الأفراد في الأدوار الرئيسية الذين قابلتهم وتحقق من سجلاتهم مقابل الكفاءة المحددة."
+      },
+      "evidence": {
+        "en": [
+          "Competence requirements per role",
+          "Training records and evaluation of effectiveness",
+          "Qualification certificates"
+        ],
+        "ar": [
+          "متطلبات الكفاءة لكل دور",
+          "سجلات التدريب وتقييم فاعليته",
+          "شهادات المؤهلات"
+        ]
+      },
+      "stages": [
+        "stage2",
+        "surveillance",
+        "recertification",
+        "special"
+      ],
+      "sampling": {
+        "en": "Sample at least three people in roles that affect conformity.",
+        "ar": "اختر عينة من ثلاثة أفراد على الأقل في أدوار مؤثرة في المطابقة."
+      },
+      "mandatory": true,
+      "common": true,
+      "key": "hs-7.2"
+    },
+    {
+      "code": "FM-12",
+      "clause": "7.3",
+      "title": {
+        "en": "Awareness",
+        "ar": "الوعي"
+      },
+      "requirement": {
+        "en": "People doing the work know the policy, the objectives that concern them, how they contribute and what happens if they do not follow the system.",
+        "ar": "يعرف القائمون بالعمل السياسة والأهداف المتعلقة بهم وكيف يسهمون، وما يترتب على عدم الالتزام بالنظام."
+      },
+      "guidance": {
+        "en": "Ask operators, not managers. Short informal questions at the workplace work best.",
+        "ar": "اسأل العاملين في الميدان لا المديرين، والأسئلة القصيرة غير الرسمية في موقع العمل هي الأنسب."
+      },
+      "evidence": {
+        "en": [
+          "Interviews at the workplace",
+          "Induction and awareness records"
+        ],
+        "ar": [
+          "مقابلات في موقع العمل",
+          "سجلات التهيئة والتوعية"
+        ]
+      },
+      "stages": [
+        "stage2",
+        "surveillance",
+        "recertification",
+        "special"
+      ],
+      "sampling": null,
+      "mandatory": true,
+      "common": true,
+      "key": "hs-7.3"
+    },
+    {
+      "code": "FM-13",
+      "clause": "7.4",
+      "title": {
+        "en": "Communication",
+        "ar": "الاتصال"
+      },
+      "requirement": {
+        "en": "The organization has decided what it communicates about the facility management system, when, to whom, how and who does it, internally and externally.",
+        "ar": "حددت المنظمة ما تتواصل بشأنه في نظام إدارة المرافق ومتى ومع من وكيف ومن يتولى ذلك، داخلياً وخارجياً."
+      },
+      "guidance": {
+        "en": "Check one internal and one external communication against the arrangements.",
+        "ar": "تحقق من اتصال داخلي واحد واتصال خارجي واحد مقابل الترتيبات المحددة."
+      },
+      "evidence": {
+        "en": [
+          "Communication plan or matrix",
+          "Examples of internal and external communication"
+        ],
+        "ar": [
+          "خطة الاتصال أو مصفوفته",
+          "أمثلة على الاتصالات الداخلية والخارجية"
+        ]
+      },
+      "stages": [
+        "stage2",
+        "surveillance",
+        "recertification",
+        "special"
+      ],
+      "sampling": null,
+      "mandatory": true,
+      "common": true,
+      "key": "hs-7.4"
+    },
+    {
+      "code": "FM-14",
+      "clause": "7.5",
+      "title": {
+        "en": "Documented information",
+        "ar": "المعلومات الموثقة"
+      },
+      "requirement": {
+        "en": "Documented information the standard asks for, and what the organization finds necessary, is created with proper identification and approval, and controlled for availability, protection, changes, retention and disposal, including external documents.",
+        "ar": "تُنشأ المعلومات الموثقة التي يطلبها المعيار وما تراه المنظمة ضرورياً مع التعريف والاعتماد الملائمين، وتُضبط من حيث الإتاحة والحماية والتغيير والحفظ والإتلاف، بما في ذلك الوثائق الخارجية."
+      },
+      "guidance": {
+        "en": "At Stage 1 review the documented information for adequacy. Later, check that documents in use at the workplace are the current versions.",
+        "ar": "في المرحلة الأولى راجع كفاية المعلومات الموثقة، وفي المراحل اللاحقة تحقق من أن الوثائق المستخدمة في موقع العمل هي الإصدارات السارية."
+      },
+      "evidence": {
+        "en": [
+          "Master list of documents",
+          "Document approval and revision history",
+          "Record retention rules"
+        ],
+        "ar": [
+          "القائمة الرئيسية للوثائق",
+          "سجل اعتماد الوثائق ومراجعاتها",
+          "قواعد حفظ السجلات"
+        ]
+      },
+      "stages": [
+        "stage1",
+        "stage2",
+        "surveillance",
+        "recertification",
+        "special"
+      ],
+      "sampling": null,
+      "mandatory": true,
+      "common": true,
+      "key": "hs-7.5"
+    },
+    {
+      "code": "FM-15",
+      "clause": "8.1",
+      "title": {
+        "en": "Operational planning and control",
+        "ar": "تخطيط العمليات وضبطها"
+      },
+      "requirement": {
+        "en": "Processes needed to meet requirements are planned with criteria, carried out under control, outsourced processes are controlled and planned changes are managed.",
+        "ar": "تُخطط العمليات اللازمة لتلبية المتطلبات بمعايير محددة، وتُنفذ تحت السيطرة، وتُضبط العمليات المسندة إلى جهات خارجية، وتُدار التغييرات المخططة."
+      },
+      "guidance": {
+        "en": "Walk the main process on site. Compare what you see with the documented criteria.",
+        "ar": "تجول في العملية الرئيسية ميدانياً وقارن ما تشاهده بالمعايير الموثقة."
+      },
+      "evidence": {
+        "en": [
+          "Operational procedures or work instructions",
+          "Records proving criteria were met",
+          "Controls over outsourced processes"
+        ],
+        "ar": [
+          "إجراءات التشغيل أو تعليمات العمل",
+          "سجلات تثبت تحقق المعايير",
+          "ضوابط العمليات المسندة خارجياً"
+        ]
+      },
+      "stages": [
+        "stage2",
+        "surveillance",
+        "recertification",
+        "special"
+      ],
+      "sampling": {
+        "en": "Cover every shift and site in the audit programme over the cycle.",
+        "ar": "غطّ جميع الورديات والمواقع ضمن برنامج التدقيق خلال الدورة."
+      },
+      "mandatory": true,
+      "common": true,
+      "key": "hs-8.1"
+    },
+    {
+      "code": "FM-16",
+      "clause": "8.1 FM",
+      "title": {
+        "en": "Operational planning and control of facility services",
+        "ar": "تخطيط وضبط عمليات خدمات المرافق"
+      },
+      "requirement": {
+        "en": "Facility services are planned and controlled to meet the needs of the demand organization, with service levels and outsourced services controlled.",
+        "ar": "تُخطط خدمات المرافق وتُضبط لتلبية احتياجات الجهة المستفيدة، مع ضبط مستويات الخدمة والخدمات المسندة."
+      },
+      "guidance": {
+        "en": "Compare service level reports with the agreed levels.",
+        "ar": "قارن تقارير مستوى الخدمة بالمستويات المتفق عليها."
+      },
+      "evidence": {
+        "en": [
+          "Service level agreements",
+          "Performance reports"
+        ],
+        "ar": [
+          "اتفاقيات مستوى الخدمة",
+          "تقارير الأداء"
+        ]
+      },
+      "stages": [
+        "stage2",
+        "surveillance",
+        "recertification",
+        "special"
+      ],
+      "sampling": null,
+      "mandatory": true,
+      "common": false,
+      "key": null
+    },
+    {
+      "code": "FM-17",
+      "clause": "8.2",
+      "title": {
+        "en": "Coordination with interested parties",
+        "ar": "التنسيق مع الأطراف المعنية"
+      },
+      "requirement": {
+        "en": "The organization coordinates with the demand organization and other interested parties so facility services support their objectives.",
+        "ar": "تنسق المنظمة مع الجهة المستفيدة والأطراف المعنية الأخرى بحيث تدعم خدمات المرافق أهدافها."
+      },
+      "guidance": {
+        "en": "Interview a representative of the demand organization if possible.",
+        "ar": "قابل ممثلاً عن الجهة المستفيدة إن أمكن."
+      },
+      "evidence": {
+        "en": [
+          "Coordination meeting minutes"
+        ],
+        "ar": [
+          "محاضر اجتماعات التنسيق"
+        ]
+      },
+      "stages": [
+        "stage2",
+        "surveillance",
+        "recertification",
+        "special"
+      ],
+      "sampling": null,
+      "mandatory": true,
+      "common": false,
+      "key": null
+    },
+    {
+      "code": "FM-18",
+      "clause": "8.3",
+      "title": {
+        "en": "Integration of services",
+        "ar": "تكامل الخدمات"
+      },
+      "requirement": {
+        "en": "Facility services are integrated, delivered consistently and their performance is evaluated.",
+        "ar": "تتكامل خدمات المرافق وتُقدم باتساق ويُقيَّم أداؤها."
+      },
+      "guidance": {
+        "en": "Check how cleaning, maintenance and security providers work together.",
+        "ar": "تحقق من كيفية تعاون مقدمي خدمات النظافة والصيانة والأمن."
+      },
+      "evidence": {
+        "en": [
+          "Integrated service plans",
+          "Helpdesk records"
+        ],
+        "ar": [
+          "خطط الخدمات المتكاملة",
+          "سجلات مكتب الدعم"
+        ]
+      },
+      "stages": [
+        "stage2",
+        "surveillance",
+        "recertification",
+        "special"
+      ],
+      "sampling": null,
+      "mandatory": true,
+      "common": false,
+      "key": null
+    },
+    {
+      "code": "FM-19",
+      "clause": "9.1",
+      "title": {
+        "en": "Monitoring, measurement, analysis and evaluation",
+        "ar": "الرصد والقياس والتحليل والتقييم"
+      },
+      "requirement": {
+        "en": "The organization decides what to monitor and measure, how and when, analyses the results and evaluates the performance and effectiveness of the facility management system.",
+        "ar": "تحدد المنظمة ما يجب رصده وقياسه وكيف ومتى، وتحلل النتائج وتقيّم أداء نظام إدارة المرافق وفاعليته."
+      },
+      "guidance": {
+        "en": "Check that the data analysed actually leads to decisions. Trends with no action are a weak point.",
+        "ar": "تحقق من أن البيانات المحللة تقود فعلاً إلى قرارات، فالاتجاهات التي لا يتبعها إجراء نقطة ضعف."
+      },
+      "evidence": {
+        "en": [
+          "Monitoring plan and KPIs",
+          "Analysis reports",
+          "Calibration of measuring equipment where relevant"
+        ],
+        "ar": [
+          "خطة الرصد ومؤشرات الأداء",
+          "تقارير التحليل",
+          "معايرة أجهزة القياس عند الحاجة"
+        ]
+      },
+      "stages": [
+        "stage2",
+        "surveillance",
+        "recertification",
+        "special"
+      ],
+      "sampling": null,
+      "mandatory": true,
+      "common": true,
+      "key": "hs-9.1"
+    },
+    {
+      "code": "FM-20",
+      "clause": "9.2",
+      "title": {
+        "en": "Internal audit",
+        "ar": "التدقيق الداخلي"
+      },
+      "requirement": {
+        "en": "Internal audits are run to a programme at planned intervals by objective auditors, cover the whole facility management system, results go to the relevant managers and records are kept.",
+        "ar": "يُنفذ التدقيق الداخلي وفق برنامج وعلى فترات مخططة بواسطة مدققين موضوعيين، ويغطي نظام إدارة المرافق كاملاً، وتُرفع النتائج إلى المديرين المعنيين وتُحفظ السجلات."
+      },
+      "guidance": {
+        "en": "Before Stage 2 at least one complete internal audit cycle should exist. Judge how far you can rely on it (17021-1 9.2.3.1).",
+        "ar": "قبل المرحلة الثانية ينبغي وجود دورة تدقيق داخلي كاملة واحدة على الأقل. قدّر مدى إمكانية الاعتماد عليها."
+      },
+      "evidence": {
+        "en": [
+          "Internal audit programme",
+          "Audit reports and findings",
+          "Auditor competence and independence"
+        ],
+        "ar": [
+          "برنامج التدقيق الداخلي",
+          "تقارير التدقيق والملاحظات",
+          "كفاءة المدققين واستقلاليتهم"
+        ]
+      },
+      "stages": [
+        "stage1",
+        "stage2",
+        "surveillance",
+        "recertification",
+        "special"
+      ],
+      "sampling": null,
+      "mandatory": true,
+      "common": true,
+      "key": "hs-9.2"
+    },
+    {
+      "code": "FM-21",
+      "clause": "9.3",
+      "title": {
+        "en": "Management review",
+        "ar": "مراجعة الإدارة"
+      },
+      "requirement": {
+        "en": "Top management reviews the facility management system at planned intervals, considers all the expected inputs and records decisions on improvement, changes and resources.",
+        "ar": "تراجع الإدارة العليا نظام إدارة المرافق على فترات مخططة، وتأخذ جميع المدخلات المتوقعة بالاعتبار، وتسجل القرارات المتعلقة بالتحسين والتغيير والموارد."
+      },
+      "guidance": {
+        "en": "Compare the minutes against the list of required inputs and follow one decision to its implementation.",
+        "ar": "قارن المحضر بقائمة المدخلات المطلوبة وتتبع قراراً واحداً حتى تنفيذه."
+      },
+      "evidence": {
+        "en": [
+          "Management review minutes",
+          "Action list from the review"
+        ],
+        "ar": [
+          "محضر مراجعة الإدارة",
+          "قائمة الإجراءات الناتجة عن المراجعة"
+        ]
+      },
+      "stages": [
+        "stage1",
+        "stage2",
+        "surveillance",
+        "recertification",
+        "special"
+      ],
+      "sampling": null,
+      "mandatory": true,
+      "common": true,
+      "key": "hs-9.3"
+    },
+    {
+      "code": "FM-22",
+      "clause": "10.1",
+      "title": {
+        "en": "Nonconformity and corrective action",
+        "ar": "عدم المطابقة والإجراء التصحيحي"
+      },
+      "requirement": {
+        "en": "When a nonconformity occurs the organization reacts, corrects it, finds the cause, takes action to stop it recurring, checks effectiveness and keeps records.",
+        "ar": "عند حدوث عدم مطابقة تتعامل المنظمة معها وتصححها وتحدد سببها وتتخذ إجراء يمنع تكرارها وتتحقق من الفاعلية وتحفظ السجلات."
+      },
+      "guidance": {
+        "en": "Sample closed corrective actions and check that the root cause was real and the action addressed it. Review actions on findings from the previous audit.",
+        "ar": "اختر عينة من الإجراءات التصحيحية المغلقة وتحقق من أن السبب الجذري حقيقي وأن الإجراء عالجه، وراجع الإجراءات المتخذة على ملاحظات التدقيق السابق."
+      },
+      "evidence": {
+        "en": [
+          "Nonconformity and corrective action log",
+          "Root cause analysis records",
+          "Effectiveness verification"
+        ],
+        "ar": [
+          "سجل حالات عدم المطابقة والإجراءات التصحيحية",
+          "سجلات تحليل السبب الجذري",
+          "التحقق من الفاعلية"
+        ]
+      },
+      "stages": [
+        "stage2",
+        "surveillance",
+        "recertification",
+        "special"
+      ],
+      "sampling": {
+        "en": "At surveillance, always verify actions on the previous nonconformities.",
+        "ar": "في تدقيق المراقبة تحقق دائماً من الإجراءات المتخذة على حالات عدم المطابقة السابقة."
+      },
+      "mandatory": true,
+      "common": true,
+      "key": "hs-10.nc"
+    },
+    {
+      "code": "FM-23",
+      "clause": "10.2",
+      "title": {
+        "en": "Continual improvement",
+        "ar": "التحسين المستمر"
+      },
+      "requirement": {
+        "en": "The organization keeps improving the suitability, adequacy and effectiveness of the facility management system.",
+        "ar": "تواصل المنظمة تحسين ملاءمة نظام إدارة المرافق وكفايته وفاعليته."
+      },
+      "guidance": {
+        "en": "Ask for examples of improvement since the last audit and how they were chosen.",
+        "ar": "اطلب أمثلة على التحسينات منذ التدقيق السابق وكيف جرى اختيارها."
+      },
+      "evidence": {
+        "en": [
+          "Improvement projects or initiatives",
+          "Trend of key indicators over time"
+        ],
+        "ar": [
+          "مشاريع أو مبادرات التحسين",
+          "اتجاه المؤشرات الرئيسية عبر الزمن"
+        ]
+      },
+      "stages": [
+        "stage2",
+        "surveillance",
+        "recertification",
+        "special"
+      ],
+      "sampling": null,
+      "mandatory": true,
+      "common": true,
+      "key": "hs-10.ci"
+    }
+  ]
+}

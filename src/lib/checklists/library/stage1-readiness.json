@@ -1,0 +1,435 @@
+{
+  "key": "stage1-readiness",
+  "standardCode": "STAGE1",
+  "kind": "STAGE1_READINESS",
+  "standard": "ISO/IEC 17021-1:2015 9.3.1",
+  "name": {
+    "en": "Stage 1 readiness review",
+    "ar": "مراجعة الجاهزية للمرحلة الأولى"
+  },
+  "version": "2026.10",
+  "status": "approved",
+  "approvedBy": "Product owner",
+  "approvedOn": "2026-10-25",
+  "reviewNote": {
+    "en": "Approved by the product owner on 25 October 2026. Requirement summaries are written in our own words with the clause number; they are not the text of the standard. Check clause numbers against the edition in your accreditation scope.",
+    "ar": "اعتمدها مالك المنتج في 25 أكتوبر 2026. ملخصات المتطلبات مكتوبة بصياغتنا مع رقم البند وليست نص المعيار. تحقق من أرقام البنود مقابل الإصدار المشمول في نطاق اعتمادك."
+  },
+  "items": [
+    {
+      "code": "S1-01",
+      "clause": "17021-1 9.3.1.2 a",
+      "title": {
+        "en": "Documented information of the management system",
+        "ar": "المعلومات الموثقة لنظام الإدارة"
+      },
+      "requirement": {
+        "en": "The documented information of the client's management system has been reviewed and covers what the standard requires (scope, policy, objectives, required procedures and records).",
+        "ar": "روجعت المعلومات الموثقة لنظام إدارة العميل وهي تغطي ما يتطلبه المعيار (النطاق والسياسة والأهداف والإجراءات والسجلات المطلوبة)."
+      },
+      "guidance": {
+        "en": "Record gaps that would block Stage 2.",
+        "ar": "سجل الفجوات التي قد تمنع المرحلة الثانية."
+      },
+      "evidence": {
+        "en": [
+          "Document review notes"
+        ],
+        "ar": [
+          "ملاحظات مراجعة الوثائق"
+        ]
+      },
+      "stages": [
+        "stage1"
+      ],
+      "sampling": null,
+      "mandatory": true,
+      "common": false,
+      "key": null
+    },
+    {
+      "code": "S1-02",
+      "clause": "17021-1 9.3.1.2 b",
+      "title": {
+        "en": "Site conditions and preparedness",
+        "ar": "ظروف الموقع والاستعداد"
+      },
+      "requirement": {
+        "en": "Site-specific conditions have been evaluated and discussed with client personnel to judge preparedness for Stage 2.",
+        "ar": "قُيّمت الظروف الخاصة بالموقع ونوقشت مع أفراد العميل للحكم على الاستعداد للمرحلة الثانية."
+      },
+      "guidance": {
+        "en": "Note any locations, shifts or seasonal activities to cover at Stage 2.",
+        "ar": "دوّن المواقع أو الورديات أو الأنشطة الموسمية الواجب تغطيتها في المرحلة الثانية."
+      },
+      "evidence": {
+        "en": [
+          "Site tour notes",
+          "Interviews with key personnel"
+        ],
+        "ar": [
+          "ملاحظات جولة الموقع",
+          "مقابلات الأفراد الرئيسيين"
+        ]
+      },
+      "stages": [
+        "stage1"
+      ],
+      "sampling": null,
+      "mandatory": true,
+      "common": false,
+      "key": null
+    },
+    {
+      "code": "S1-03",
+      "clause": "17021-1 9.3.1.2 c",
+      "title": {
+        "en": "Understanding of the standard and key performance",
+        "ar": "فهم المعيار والأداء الرئيسي"
+      },
+      "requirement": {
+        "en": "The client's status and understanding of the standard's requirements have been reviewed, in particular the key performance, significant aspects, processes, objectives and operation of the management system.",
+        "ar": "روجعت حالة العميل وفهمه لمتطلبات المعيار، ولا سيما الأداء الرئيسي والجوانب الجوهرية والعمليات والأهداف وتشغيل نظام الإدارة."
+      },
+      "guidance": {
+        "en": "Focus on significant aspects, hazards, risks or critical control points as the standard requires.",
+        "ar": "ركز على الجوانب الجوهرية أو المخاطر أو نقاط التحكم الحرجة حسب المعيار."
+      },
+      "evidence": {
+        "en": [
+          "Interview notes",
+          "Key performance indicators"
+        ],
+        "ar": [
+          "ملاحظات المقابلات",
+          "مؤشرات الأداء الرئيسية"
+        ]
+      },
+      "stages": [
+        "stage1"
+      ],
+      "sampling": null,
+      "mandatory": true,
+      "common": false,
+      "key": null
+    },
+    {
+      "code": "S1-04",
+      "clause": "17021-1 9.3.1.2 d",
+      "title": {
+        "en": "Scope, processes, sites and legal compliance",
+        "ar": "النطاق والعمليات والمواقع والامتثال القانوني"
+      },
+      "requirement": {
+        "en": "Information on the scope, processes, equipment, controls, sites and related legal and regulatory aspects, including permits and licences, has been collected and confirmed.",
+        "ar": "جُمعت المعلومات المتعلقة بالنطاق والعمليات والمعدات والضوابط والمواقع والجوانب القانونية والتنظيمية ذات الصلة، بما فيها التصاريح والتراخيص، وتأكدت صحتها."
+      },
+      "guidance": {
+        "en": "Confirm the scope wording proposed for the certificate.",
+        "ar": "أكد صياغة النطاق المقترحة للشهادة."
+      },
+      "evidence": {
+        "en": [
+          "Commercial registration and licences",
+          "Proposed scope wording"
+        ],
+        "ar": [
+          "السجل التجاري والتراخيص",
+          "صياغة النطاق المقترحة"
+        ]
+      },
+      "stages": [
+        "stage1"
+      ],
+      "sampling": null,
+      "mandatory": true,
+      "common": false,
+      "key": null
+    },
+    {
+      "code": "S1-05",
+      "clause": "17021-1 9.3.1.2 e",
+      "title": {
+        "en": "Resources and details for Stage 2",
+        "ar": "الموارد وتفاصيل المرحلة الثانية"
+      },
+      "requirement": {
+        "en": "The allocation of resources and the details of Stage 2 (dates, sites, shifts, people to interview, audit time and team) have been reviewed and agreed with the client.",
+        "ar": "روجع تخصيص الموارد وتفاصيل المرحلة الثانية (التواريخ والمواقع والورديات والأشخاص المطلوب مقابلتهم ومدة التدقيق والفريق) واتُفق عليها مع العميل."
+      },
+      "guidance": {
+        "en": "Flag here if the audit time or team competence must change (IAF MD 5).",
+        "ar": "أشر هنا إذا لزم تغيير مدة التدقيق أو كفاءة الفريق."
+      },
+      "evidence": {
+        "en": [
+          "Draft Stage 2 plan"
+        ],
+        "ar": [
+          "مسودة خطة المرحلة الثانية"
+        ]
+      },
+      "stages": [
+        "stage1"
+      ],
+      "sampling": null,
+      "mandatory": true,
+      "common": false,
+      "key": null
+    },
+    {
+      "code": "S1-06",
+      "clause": "17021-1 9.3.1.2 f",
+      "title": {
+        "en": "Focus for planning Stage 2",
+        "ar": "محور تخطيط المرحلة الثانية"
+      },
+      "requirement": {
+        "en": "Enough understanding of the management system and site operations has been gained to plan Stage 2 with the right focus.",
+        "ar": "اكتُسب فهم كافٍ لنظام الإدارة وعمليات الموقع لتخطيط المرحلة الثانية بالتركيز الصحيح."
+      },
+      "guidance": {
+        "en": "List the areas Stage 2 must sample more deeply.",
+        "ar": "اذكر المجالات التي يجب أن تأخذ منها المرحلة الثانية عينات أعمق."
+      },
+      "evidence": {
+        "en": [
+          "Notes for the Stage 2 plan"
+        ],
+        "ar": [
+          "ملاحظات لخطة المرحلة الثانية"
+        ]
+      },
+      "stages": [
+        "stage1"
+      ],
+      "sampling": null,
+      "mandatory": true,
+      "common": false,
+      "key": null
+    },
+    {
+      "code": "S1-07",
+      "clause": "17021-1 9.3.1.2 g",
+      "title": {
+        "en": "Internal audits and management review planned and performed",
+        "ar": "التدقيق الداخلي ومراجعة الإدارة: التخطيط والتنفيذ"
+      },
+      "requirement": {
+        "en": "Internal audits and management reviews are planned and have been performed, and the level of implementation shows the client is ready for Stage 2.",
+        "ar": "خُطط للتدقيق الداخلي ومراجعة الإدارة ونُفذا، ومستوى التطبيق يبين جاهزية العميل للمرحلة الثانية."
+      },
+      "guidance": {
+        "en": "Without a completed internal audit and management review, Stage 2 should normally not go ahead.",
+        "ar": "في غياب تدقيق داخلي ومراجعة إدارة مكتملين لا ينبغي عادة المضي في المرحلة الثانية."
+      },
+      "evidence": {
+        "en": [
+          "Internal audit report",
+          "Management review minutes"
+        ],
+        "ar": [
+          "تقرير التدقيق الداخلي",
+          "محضر مراجعة الإدارة"
+        ]
+      },
+      "stages": [
+        "stage1"
+      ],
+      "sampling": null,
+      "mandatory": true,
+      "common": false,
+      "key": null
+    },
+    {
+      "code": "S1-08",
+      "clause": "Stage 1 outsourcing",
+      "title": {
+        "en": "Outsourced processes",
+        "ar": "العمليات المسندة خارجياً"
+      },
+      "requirement": {
+        "en": "Processes the client outsources have been identified, with the controls it applies to them.",
+        "ar": "حُددت العمليات التي يسندها العميل إلى جهات خارجية والضوابط المطبقة عليها."
+      },
+      "guidance": {
+        "en": "Outsourced processes stay the client's responsibility and are audited at Stage 2.",
+        "ar": "تبقى العمليات المسندة مسؤولية العميل وتُدقق في المرحلة الثانية."
+      },
+      "evidence": {
+        "en": [
+          "List of outsourced processes"
+        ],
+        "ar": [
+          "قائمة العمليات المسندة"
+        ]
+      },
+      "stages": [
+        "stage1"
+      ],
+      "sampling": null,
+      "mandatory": true,
+      "common": false,
+      "key": null
+    },
+    {
+      "code": "S1-09",
+      "clause": "IAF MD 1",
+      "title": {
+        "en": "Multi-site organization and sampling",
+        "ar": "المنظمات متعددة المواقع وأخذ العينات"
+      },
+      "requirement": {
+        "en": "For multi-site clients the central function, the list of sites and their eligibility for sampling have been confirmed.",
+        "ar": "للعملاء متعددي المواقع، تأكدت الوظيفة المركزية وقائمة المواقع وأهليتها لأخذ العينات."
+      },
+      "guidance": {
+        "en": "Mark not applicable for single-site clients.",
+        "ar": "اختر غير منطبق للعملاء ذوي الموقع الواحد."
+      },
+      "evidence": {
+        "en": [
+          "Site list",
+          "Sampling calculation"
+        ],
+        "ar": [
+          "قائمة المواقع",
+          "حساب العينة"
+        ]
+      },
+      "stages": [
+        "stage1"
+      ],
+      "sampling": null,
+      "mandatory": false,
+      "common": false,
+      "key": null
+    },
+    {
+      "code": "S1-10",
+      "clause": "IAF MD 4",
+      "title": {
+        "en": "Remote auditing and ICT feasibility",
+        "ar": "التدقيق عن بُعد وجدوى تقنيات المعلومات والاتصالات"
+      },
+      "requirement": {
+        "en": "Where remote techniques are planned, the ICT tools, connectivity, confidentiality and the client's agreement have been checked and tested.",
+        "ar": "عند التخطيط لأساليب عن بُعد، جرى التحقق من أدوات تقنيات المعلومات والاتصال وجودة الاتصال والسرية وموافقة العميل، واختبارها."
+      },
+      "guidance": {
+        "en": "Record the outcome of the ICT test.",
+        "ar": "سجل نتيجة اختبار تقنيات المعلومات والاتصالات."
+      },
+      "evidence": {
+        "en": [
+          "ICT test record",
+          "Client agreement to remote audit"
+        ],
+        "ar": [
+          "سجل اختبار التقنيات",
+          "موافقة العميل على التدقيق عن بُعد"
+        ]
+      },
+      "stages": [
+        "stage1"
+      ],
+      "sampling": null,
+      "mandatory": false,
+      "common": false,
+      "key": null
+    },
+    {
+      "code": "S1-11",
+      "clause": "17021-1 9.3.1.3",
+      "title": {
+        "en": "Concerns that could be nonconformities at Stage 2",
+        "ar": "المخاوف المحتملة لعدم المطابقة في المرحلة الثانية"
+      },
+      "requirement": {
+        "en": "Concerns that could be classified as nonconformities at Stage 2 are documented and communicated to the client.",
+        "ar": "وُثقت المخاوف التي قد تُصنف حالات عدم مطابقة في المرحلة الثانية وأُبلغت للعميل."
+      },
+      "guidance": {
+        "en": "These concerns go into the Stage 1 report.",
+        "ar": "تُدرج هذه المخاوف في تقرير المرحلة الأولى."
+      },
+      "evidence": {
+        "en": [
+          "List of concerns communicated"
+        ],
+        "ar": [
+          "قائمة المخاوف المبلغة"
+        ]
+      },
+      "stages": [
+        "stage1"
+      ],
+      "sampling": null,
+      "mandatory": true,
+      "common": false,
+      "key": null
+    },
+    {
+      "code": "S1-12",
+      "clause": "17021-1 8.3",
+      "title": {
+        "en": "Use of certification marks and claims",
+        "ar": "استخدام علامات الشهادة والادعاءات"
+      },
+      "requirement": {
+        "en": "The client does not claim certification or use the CAB's marks before certification is granted.",
+        "ar": "لا يدّعي العميل الحصول على الشهادة ولا يستخدم علامات الجهة قبل منح الشهادة."
+      },
+      "guidance": {
+        "en": "Check website, brochures and letterheads.",
+        "ar": "افحص الموقع الإلكتروني والمطبوعات والأوراق الرسمية."
+      },
+      "evidence": {
+        "en": [
+          "Website and marketing material check"
+        ],
+        "ar": [
+          "فحص الموقع الإلكتروني والمواد التسويقية"
+        ]
+      },
+      "stages": [
+        "stage1"
+      ],
+      "sampling": null,
+      "mandatory": true,
+      "common": false,
+      "key": null
+    },
+    {
+      "code": "S1-13",
+      "clause": "Stage 1 conclusion",
+      "title": {
+        "en": "Readiness for Stage 2",
+        "ar": "الجاهزية للمرحلة الثانية"
+      },
+      "requirement": {
+        "en": "Based on the above, a conclusion is reached on whether the client is ready for Stage 2 and the interval between the stages is agreed.",
+        "ar": "بناءً على ما سبق، يُتوصل إلى خلاصة بشأن جاهزية العميل للمرحلة الثانية ويُتفق على الفترة بين المرحلتين."
+      },
+      "guidance": {
+        "en": "Record Ready, Ready with concerns, or Not ready in the Stage 1 report.",
+        "ar": "سجل جاهز أو جاهز مع ملاحظات أو غير جاهز في تقرير المرحلة الأولى."
+      },
+      "evidence": {
+        "en": [
+          "Stage 1 conclusion"
+        ],
+        "ar": [
+          "خلاصة المرحلة الأولى"
+        ]
+      },
+      "stages": [
+        "stage1"
+      ],
+      "sampling": null,
+      "mandatory": true,
+      "common": false,
+      "key": null
+    }
+  ]
+}
